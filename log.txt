@@ -1,0 +1,3753 @@
+commit eb257664920a8ece1eb495b63734bcc122037fa8
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sun Apr 22 23:25:53 2012 -0700
+
+    added 'storm version' command
+
+commit 7918fad178f5ad225e4e3c990336d29339300f54
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Apr 20 23:05:56 2012 -0700
+
+    update changelog and contributors
+
+commit c278586887ece7525fa973d08c7dbffaf89bdae4
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Apr 20 22:36:35 2012 -0700
+
+    fixed remaining issues to get tests passing, cleaned up dependencies
+
+commit ce2c9923605061db95eb0e27340e4afc3c3b997e
+Merge: aaaa759 1837662
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Apr 20 20:53:54 2012 -0700
+
+    Merge remote-tracking branch 'soren/clojure1.3' into clojure1.4
+
+commit aaaa75913f7ada569c105a185935feb16dc46cf2
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Apr 20 20:12:03 2012 -0700
+
+    update changelog
+
+commit e9efb3993653ed78cdcff2d6f99d3eea3c4ea718
+Merge: 35c70ed a2556b6
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Apr 20 19:52:34 2012 -0700
+
+    Merge remote-tracking branch 'hellp/py-newstyle-classes'
+
+commit 35c70edca27775ec087b9782aeb8eb1f0ebd740d
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Apr 19 22:27:38 2012 -0700
+
+    update changelog
+
+commit 0ed4a6072512b38d0e29e057b07b22e1da859822
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Apr 19 22:05:53 2012 -0700
+
+    added close method to opaque coordinator, fixed critical bug in opaque emitted causing duplication of messages when pipelining batches
+
+commit a2556b6ff7e1a1401b6c551f0b1b10fbf6fd383f
+Author: Fabian Neumann <fn@sturzbach.de>
+Date:   Wed Apr 18 16:18:19 2012 +0200
+
+    multilang: Use new-style classes in Python.
+    
+    To enable proper subclassing including super() usage, new-style classes
+    are required.
+
+commit 35333e45db9492fe409baaf4d1a6be0b87a6bb0f
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Apr 18 00:46:57 2012 -0700
+
+    generalize shellbolt exception catching to Throwable
+
+commit a31de9f59ebf2dbd7c84cfe0afbe62cc57dc2e35
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Apr 18 00:41:56 2012 -0700
+
+    update changelog
+
+commit 9a9861513d4ab4daa222a55d065e5963df1a12d7
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Apr 18 00:41:14 2012 -0700
+
+    don't cleanup in shellbolt die
+
+commit a6cf888896d772ab2a2efb942e7bf6ee992727d4
+Merge: ec812fa 469cd6b
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Apr 18 00:36:13 2012 -0700
+
+    Merge remote-tracking branch 'loku/shell-bolt-restart-fix-0.7.1'
+
+commit 469cd6bfe53a27063e4ded285b1a16b4e4f80902
+Author: Thomas Jack <thomasjack@gmail.com>
+Date:   Tue Apr 17 11:12:47 2012 -0500
+
+    fix issue with shell bolts not restarting
+
+commit ec812fa296d4c4835a0cb6159939561264dcd571
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Apr 17 00:18:50 2012 -0700
+
+    update changelog
+
+commit a75d3780832544434c0db09179c4fa2097959137
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Apr 17 00:15:28 2012 -0700
+
+    make emitDirect work for spouts
+
+commit 183766284e276e826c16c02c5d328b3ff48fef75
+Author: Soren Macbeth <soren@dopeness.org>
+Date:   Mon Apr 16 09:56:36 2012 -0700
+
+    fix Long->Integer errors, bump clojure 1.4
+
+commit e88aa5bf882a501ea156cef61235d60628e86453
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Apr 13 22:45:56 2012 -0700
+
+    update comment and changelog
+
+commit 3e99760ecf7d4ca606aa48ccdbe27bae08ed8246
+Merge: 6d32c6c 8581cce
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Apr 13 22:35:04 2012 -0700
+
+    Merge remote branch 'xuming/issue120'
+
+commit 6d32c6c82a364faef3773c1b3a1a687df2db5502
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Apr 13 11:40:32 2012 -0700
+
+    update changelog
+
+commit 26c73c16f7c5786e6b23635af1830ae846ad2ffb
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Apr 13 11:39:16 2012 -0700
+
+    slight refactoring
+
+commit a6af7ef2b8f7c3107027c1a2af9e2e013bd4b73d
+Merge: 668da62 c6058e6
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Apr 13 11:38:16 2012 -0700
+
+    Merge remote branch 'xuming/issue92'
+
+commit 668da62818ad8da5cd6e673062e2765f7d61908c
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Apr 12 13:53:01 2012 -0400
+
+    update changelog
+
+commit acf4ef4b51960edb7cbf37dc2b05d04f54c861fd
+Merge: 4baf72e 6584476
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Apr 12 13:49:12 2012 -0400
+
+    Merge remote branch 'xuming/issue185'
+
+commit 4baf72ecf9fc987e5bec070ea44519f038f36128
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Apr 12 13:48:58 2012 -0400
+
+    updated changelog
+
+commit 644aaea224424982ed4bc707c6c2b3490bd6e62d
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Apr 12 13:41:52 2012 -0400
+
+    minor cleanup
+
+commit 3fee3e4029aaf9981b753512af5db89e80873c6d
+Author: James Xu <xumingming64398966@gmail.com>
+Date:   Thu Apr 12 22:45:14 2012 +0800
+
+    ensure each process use its unique zk port in local mode(perfect solution)
+
+commit 6584476f7d26dfe11498a56e99d1488641d1d482
+Author: James Xu <xumingming64398966@yahoo.com.cn>
+Date:   Thu Apr 12 19:45:48 2012 +0800
+
+    fix the issue: "Timeouts in CoordinatedBolt can cause NPE later on"
+
+commit b21fd1447ebe02114cbef5d325b607cb5798d6a1
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Apr 11 16:41:58 2012 -0400
+
+    update changelog
+
+commit 9066481830c0bf4171306b03820c10d791f3b05e
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Apr 11 16:41:37 2012 -0400
+
+    make request timeout within drpc server configurable
+
+commit 8581ccef4bf85dcd4bbbb80f509a813b9dc3718c
+Author: James Xu <xumingming64398966@gmail.com>
+Date:   Mon Apr 9 20:56:47 2012 +0800
+
+    add a config in storm.yaml to override local hostname
+
+commit 9030d84b6d758a98e6189d05086e32124beda8b1
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sun Apr 8 22:07:21 2012 -0400
+
+    add changelog to releases
+
+commit c6058e6078f4ffe3271bf8119f216f7de54a24e5
+Author: James Xu <xumingming64398966@yahoo.com.cn>
+Date:   Fri Apr 6 17:46:30 2012 +0800
+
+    resolved the issue that when a topology has not been assigned a task, the storm-ui breaks
+
+commit ab26d7a9cef04361b24eb2fd8bf7b027986a4e35
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Apr 4 17:19:28 2012 -0700
+
+    update contributors
+
+commit 7139e179a39e7dba72d11adb996ea20ca6905db1
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Apr 4 16:25:53 2012 -0700
+
+    update changelog
+
+commit 804aab1e9787267263efebede9c3545d0feda391
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Apr 4 16:24:53 2012 -0700
+
+    update contributors
+
+commit daf54a7a62f7b5b162ffa81fc08031d8075103ad
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Apr 4 16:20:42 2012 -0700
+
+    change heading for Storm version
+
+commit df45a8dce1cbb78cd78475b608482186e99573cf
+Merge: a2512e9 4052d16
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Apr 4 16:16:19 2012 -0700
+
+    Merge remote branch 'xuming/issue169'
+
+commit a2512e938b4fe006cf1bfc815a60ada1c68e4a47
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Apr 4 16:14:51 2012 -0700
+
+    change copy in storm list command a little
+
+commit 77e295157abdc400d64a81f23a69a1c52cd32ed9
+Author: James Xu <xumingming64398966@gmail.com>
+Date:   Thu Apr 5 02:29:22 2012 +0800
+
+    implemented the command: 'storm list'
+
+commit 4052d1608c96bc28e1a5603a77d5a25440b4c4b0
+Author: James Xu <xumingming64398966@gmail.com>
+Date:   Wed Apr 4 23:35:03 2012 +0800
+
+    add storm release version in storm-ui
+
+commit 62a6e60cbef5ca93246054872e64803f5d6ba43e
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Apr 3 17:14:15 2012 -0700
+
+    update changelog
+
+commit da21734051e2fb743216d0249e58dc84a4f26e22
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Apr 3 17:13:43 2012 -0700
+
+    added reportError to BatchOutputCollector
+
+commit e988ed4cf269bacb1c6dfdc10eb545f329f7eaf1
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Apr 3 17:12:29 2012 -0700
+
+    add reportError function to BasicOutputCollector
+
+commit fa17af879271caa688b728b69c953ed1044794aa
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Apr 3 15:02:54 2012 -0700
+
+    update changelog
+
+commit 0e0497ce0f4e7427dc84fb154080f9bb8b41b44d
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Apr 3 15:00:48 2012 -0700
+
+    add comment to IBasicBolt
+
+commit 21a6f851400ef3d1607a9b28d6ff961c8c9710df
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Apr 3 14:47:19 2012 -0700
+
+    hide BasicOutputCollector#getOutputter methods
+
+commit e712c458d98de5d332726da697f89d29d35a233a
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Mon Apr 2 22:12:42 2012 -0700
+
+    fix comment
+
+commit cf5fc872e43f4481a2844d9300067a0743554756
+Author: Soren Macbeth <soren@dopeness.org>
+Date:   Mon Apr 2 17:14:34 2012 -0700
+
+    bump to 1.3 compat carbonite
+
+commit d3269be3ac4028d2dc92cf1d177f5f87c7d79ca2
+Merge: f597bb1 c1b8943
+Author: Soren Macbeth <soren@dopeness.org>
+Date:   Mon Apr 2 15:52:25 2012 -0700
+
+    resolve conflicts
+
+commit f4884a719dbacab0a46ee51cdde10a2bd95e006e
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Mon Apr 2 13:32:09 2012 -0700
+
+    start 0.7.2-SNAPSHOT
+
+commit 7bbfa3764b07fa7471e268a4648edb7036d3ddb9
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Mon Apr 2 13:13:33 2012 -0700
+
+    fix javadoc
+
+commit c1b8943e525b08afd7c0e13e61daa649d6b989ee
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Mon Apr 2 12:52:48 2012 -0700
+
+    release 0.7.1
+
+commit 40e092dda0e7affe89c00552bc138a251f095dc0
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sun Apr 1 22:55:44 2012 -0700
+
+    remove unecessary code
+
+commit 6fbc06d4e09b876a28122458123c42a492ceab09
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Mar 30 01:04:13 2012 -0700
+
+    refactor task-specific topologycontext from a more general topology context
+
+commit 110d451b480827fd12c92b3264bbfba67f21250b
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Mar 30 00:59:45 2012 -0700
+
+    remove TOPOLOGY-DEBUG from a few tests
+
+commit e797049dffaf239177e97f7ee14af66ce24cc7ce
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Mar 29 15:31:05 2012 -0700
+
+    refactor findResources function
+
+commit a71b3024cdf326e6166114d739c9f6413564fc28
+Author: Thomas Jack <thomasjack@gmail.com>
+Date:   Thu Mar 29 00:26:20 2012 -0500
+
+    two-step shell protocol handshake
+
+commit b76c41b58a1bce5abb59a8814f9ff11699420bb1
+Author: Thomas Jack <thomasjack@gmail.com>
+Date:   Wed Mar 28 23:15:33 2012 -0500
+
+    shell protocol json compliance and spout implementation for ruby
+
+commit 39fd9f04808a1ef915883259e4623ae299e21699
+Author: Thomas Jack <thomasjack@gmail.com>
+Date:   Wed Mar 28 23:10:38 2012 -0500
+
+    json compliance in shell protocol, update python implementation
+
+commit 1ebe0b2637f1510e18d66085f68c5389d83bfb23
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Mar 28 03:23:15 2012 -0700
+
+    fix two reflection problems
+
+commit 7ae40de6d8708fb11fe142fa2a3eb12f1be9a309
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Mar 28 00:36:30 2012 -0700
+
+    make isReady only apply to transactions that haven't been emitted before
+
+commit b699f0cfdea40891fea74ac83953304d37ea4ba2
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Mar 28 00:23:38 2012 -0700
+
+    added isReady method to transactional coordinators to skip the creation of new batches
+
+commit 6e73f34968a3c43276018b2f43a9f484e07037e7
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Mar 27 23:58:23 2012 -0700
+
+    update changelog
+
+commit 6cff057ea69f98094d7957777ef22e759db86b13
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Mar 27 23:55:41 2012 -0700
+
+    added custom groupings to lineardrpc api
+
+commit 4f63ad5ad35bcd9c08846b9c24cc39a061df8471
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Mar 27 23:53:15 2012 -0700
+
+    added localOrShuffleGrouping to java apis
+
+commit 438a8581e3fa1b32f0595801dc7a3bd94154b840
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Mar 27 23:49:22 2012 -0700
+
+    refactored groupings to return task ids instead of indices, added local-or-shuffle grouping
+
+commit 195ddafc811833f7dd75ec374989d12db84b381f
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Mar 22 23:54:43 2012 -0700
+
+    update changelog
+
+commit 5ab6711b71f185e78f2b4677e548754cf3c1d8aa
+Merge: 156560d a3431a9
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Mar 22 23:47:10 2012 -0700
+
+    Merge remote branch 'loku/json-everywhere'
+
+commit 156560db5cbc376709324b32f4d1d7dd022d59bf
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Mar 22 21:59:18 2012 -0700
+
+    update changelog
+
+commit 635b483f48e2a6ff4cfdb68a10ced817cf8bdda1
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Mar 22 21:53:04 2012 -0700
+
+    add rest of nimbus methods to localcluster
+
+commit 1b12455403356937509279fc68f750ae95a4704b
+Merge: ba71589 d5cc24f
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Mar 22 21:44:08 2012 -0700
+
+    Merge remote branch 'kasper/patch#44'
+
+commit ba715896254b941f8704334bc62d89581d97163c
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Mar 22 02:10:05 2012 -0700
+
+    update changelog
+
+commit b4b4b16e7c53795c3996f31d684325ebcce9206c
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Mar 22 02:09:23 2012 -0700
+
+    added activate/deactivate lifecycle methods on spout
+
+commit a3431a97ba3d9f5176d758c75829bc417b53c119
+Author: Thomas Jack <thomasjack@gmail.com>
+Date:   Wed Mar 21 11:06:21 2012 -0500
+
+    simplify shell protocol by using json+"\nend\n" encoding everywhere
+
+commit 541c59dabc003511fb2265d6ed51ca9d195a9418
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Mar 21 15:13:08 2012 -0700
+
+    update readme/changelog
+
+commit f7e789d01cdbe5d2eaa92986598773ff008e7f17
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Mar 21 15:10:50 2012 -0700
+
+    uncomments tests
+
+commit 0730a6e834a5531b47f35bf54900a086f4a8af00
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Mar 21 15:07:00 2012 -0700
+
+    remove log messages from python test code
+
+commit 0aa8fc5e671e4899f1515ba9d3a06c057ea5c29a
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Mar 21 05:47:58 2012 -0700
+
+    encoding stuff
+
+commit 55847dafb112ea19c59c4888f1da7ec6c2c49ed5
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Mar 21 05:14:26 2012 -0700
+
+    update changelog/readme
+
+commit 4a7335d214de759d3d3127411f273081ea8a55eb
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Mar 21 05:13:05 2012 -0700
+
+    update changelog
+
+commit 1b2ecb1da46ac7ec167509876bd99ebf26741649
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Mar 21 05:11:16 2012 -0700
+
+    fix race condition between schedule-recurring and cancel-timer
+
+commit fc05f1e097fc0d2d24f5b894b12850d88622eaf4
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Mar 21 04:59:09 2012 -0700
+
+    minor cleanup
+
+commit e7b00ef53b8df27020e94bd5450644ec67456806
+Merge: 3343cc8 554c49e
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Mar 21 04:39:54 2012 -0700
+
+    Merge remote branch 'loku/shell' into supershell
+
+commit 3343cc82fd2c269ab1e2924493d3af678056360a
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Mar 21 04:29:32 2012 -0700
+
+    update changelog
+
+commit b26070c39b8b2d10cb0150639d9121218c162f51
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Mar 21 04:24:42 2012 -0700
+
+    remove unnecessary destructuring-reify
+
+commit 71e7e21594f707128f21bdb9abd64c2f45b43be3
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Mar 21 04:18:54 2012 -0700
+
+    allow destructuring in bolt/spout methods in clojure dsl, remove complicated and unnecessary type-hinting from clojure dsl
+
+commit 71f7c5b1b80f2dc09505b3a78bba42d9fd03b0af
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Mar 21 00:32:20 2012 -0700
+
+    update CHANGELOG
+
+commit 5107e10e6d4b986d5a395846ef78ec3994733a60
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Mar 21 00:31:43 2012 -0700
+
+    make InprocMessaging threadsafe to fix lost messages with FeederSpout
+
+commit d5cc24fed6695bcafc8c89edcc7cb02a73e8ed29
+Author: Kasper Madsen <kaspergsm@gmail.com>
+Date:   Mon Mar 19 09:37:27 2012 +0100
+
+    for issue #44
+
+commit adef0a8b5ff513a57d801378a5b83c11f7b47a24
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sun Mar 18 14:42:37 2012 -0700
+
+    formatting
+
+commit c1d93da8f3e6533a6bff6d3ce0ef252c27b31ab1
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sun Mar 18 14:41:56 2012 -0700
+
+    updated CHANGELOG & contributors
+
+commit 33c9cfdfd06ef3894f678aa53b5ad9e212d3cf9a
+Merge: 7a9ff26 66275c1
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sun Mar 18 14:33:40 2012 -0700
+
+    Merge remote branch 'samus/Fields'
+
+commit 66275c1fa91dc53c3af9a96128f87bf2415596e3
+Author: Michael Cetrulo <mail2samus@gmail.com>
+Date:   Sat Mar 17 14:17:37 2012 -0300
+
+    prevent duplicates on Fields
+
+commit ff4a148e8c8a64683a0e424b6b69bd9372b29067
+Author: Michael Cetrulo <mail2samus@gmail.com>
+Date:   Sat Mar 17 21:42:04 2012 -0300
+
+    add test for Fields class
+
+commit 7a9ff26c235aec83a26f7544cb986f0298a955ee
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Mar 15 17:42:03 2012 -0700
+
+    update CHANGELOG
+
+commit 43a8df18f9d380fc9e7eb1d93aeaefb3850c148e
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Mar 15 17:41:29 2012 -0700
+
+    added cleanup method to task hook, added getThisWorkerPort to TopologyContext
+
+commit 554c49e19f7f63f65dbe474c7f062f40ac56064f
+Author: Thomas Jack <thomasjack@gmail.com>
+Date:   Thu Feb 23 23:56:38 2012 -0600
+
+    represent ids as strings in ShellBolt JSON, for languages without 64 bit integers
+
+commit d5f16d52ce5159ac56258fc8e6ec113839b1d9b0
+Author: Thomas Jack <thomasjack@gmail.com>
+Date:   Wed Feb 22 15:22:38 2012 -0600
+
+    add synchronous ShellSpout, update storm.py
+
+commit 8d8194d62100acbc3e9eb6fb907b49d03f13ba6e
+Author: Thomas Jack <thomasjack@gmail.com>
+Date:   Wed Feb 22 15:00:48 2012 -0600
+
+    allow a seq of command parts in clojure dsl's mk-shell-bolt-spec
+
+commit fdbcf7fc78438874fe5e139c6278899c7f1297e6
+Author: Thomas Jack <thomasjack@gmail.com>
+Date:   Wed Feb 22 14:49:39 2012 -0600
+
+    make ShellBolt asynchronous, update storm.py to match
+
+commit 2de2a8edcc6fd458c395a581edfe2956395c3bf6
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sun Mar 11 21:34:50 2012 -0700
+
+    update changelog
+
+commit 1b4939c70759f0a88d125a61e22f189a10eaf039
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sun Mar 11 21:34:14 2012 -0700
+
+    add ability to override timeout in drpcclient
+
+commit d8675c2fdbb15aa6d3422ef540bf76f2311030c4
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sun Mar 11 19:51:35 2012 -0700
+
+    update contributors
+
+commit da337be74a8b031a3acba524e1a62ed1ae99c3c8
+Author: Kasper Madsen <kaspergsm@gmail.com>
+Date:   Wed Mar 7 15:31:09 2012 +0100
+
+    for issue #145
+
+commit 766a29940759f1b6b8738d3d63e19b77fc169da2
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Mar 10 13:21:02 2012 -0800
+
+    update changelog
+
+commit d8ffcc254db8e53ff06eb309e20b37d4dd41cd6a
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Mar 9 01:03:51 2012 -0800
+
+    fix variable name in BoltAckInfo
+
+commit c54ec0ef8880cfea00f59c04cf6e3286a508f3f2
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Mar 9 00:52:08 2012 -0800
+
+    add prepare to task hooks
+
+commit d0bfbe1332b1b22bfc5bc67bf335f524f957daf6
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Mar 9 00:36:19 2012 -0800
+
+    simplify topology context by parameterizing it with topology conf
+
+commit 06a3fa9ea6e5c0f7a7b12b601bb1951269bf5b2b
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Mar 9 00:35:50 2012 -0800
+
+    add topology name automatically into config
+
+commit 14a6f1a8cc4435fed96e233ae238632e4c11d019
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Mar 8 23:55:50 2012 -0800
+
+    optimize build release script
+
+commit 89d30842c7ec5d439c5cfc6ae2031498011d15e0
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Mar 8 23:55:41 2012 -0800
+
+    rename TaskHook -> ITaskHook
+
+commit 9d1f9de1b21db90301bd2dc478211c1c6a909afe
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Mar 8 23:23:31 2012 -0800
+
+    optimize release builder
+
+commit 3c461b1772b8a31f853653c01a10a935252a11fc
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Mar 8 19:06:51 2012 -0800
+
+    update changelog
+
+commit e273f9984ecd69ea112b9300e5dd0b4f46cfd629
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Mar 8 19:06:46 2012 -0800
+
+    clarified comment
+
+commit eccd827b1cadfff380639378e0e7497a2b6197f8
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Mar 8 19:05:54 2012 -0800
+
+    implemented auto task hooks
+
+commit 2f148af607b6d7c88725997f10453fd136aa5dae
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Mar 8 18:49:13 2012 -0800
+
+    update changelog
+
+commit 8283fba12859c819375489b58467c8d232f1e2a2
+Merge: a8d3d44 3586082
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Mar 8 18:47:10 2012 -0800
+
+    Merge branch 'master' of github.com:nathanmarz/storm
+
+commit a8d3d442bebd3a843b2d26047a27a5e04c48c903
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Mar 8 18:46:35 2012 -0800
+
+    test for hooks
+
+commit 59f1f4f1501e8a09b976e087e3ce70a546d2caec
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Mar 8 17:06:05 2012 -0800
+
+    implement task hooks
+
+commit 155ea6d0dae858bf76482d438a656761da6a701c
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Mar 8 16:45:39 2012 -0800
+
+    modify tasks to time everything and sample before recording
+
+commit d4d271e9f54ef04099c8714c33202cd7ac556258
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Mar 8 16:32:40 2012 -0800
+
+    added interfaces for task hook
+
+commit 358608254ea6c1398319455f7e4673684961ee8b
+Merge: 93e731d 8e34af7
+Author: Nathan Marz <nathan.marz@gmail.com>
+Date:   Wed Mar 7 15:48:30 2012 -0800
+
+    Merge pull request #114 from danharvey/eclipse-lein-plugin
+    
+    Added the lein eclipse plugin to the project.clj. You can generate eclip...
+
+commit 93e731d1bcb08fffbf60b105c4a88af3d0b720b7
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Mar 3 20:43:31 2012 -0800
+
+    update changelog and contributors
+
+commit 02cda16b0a8724d86956072fa08e4a723affcd88
+Merge: 61cc199 d1bc264
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Mar 3 20:35:22 2012 -0800
+
+    Merge remote branch 'travis/travisfw-seq-count'
+
+commit 61cc1990d8e2416afb82e9d00662944ea08247e2
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Mar 3 20:33:06 2012 -0800
+
+    update contributors
+
+commit c0a8e69a6394344634b855215f137b5147dd4748
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Mar 3 20:22:36 2012 -0800
+
+    fix storm client to not squash non -c options
+
+commit 7401175c52682d89dcfa5bdc08329df644732c73
+Merge: 3559027 8cf2357
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Mar 3 19:50:51 2012 -0800
+
+    Merge branch 'ui-url'
+
+commit 35590279c6e7c590b20f3451341125c47194e7c1
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Mar 3 19:07:18 2012 -0800
+
+    update changelog
+
+commit 8cf23578728fdee421a838965c285d10ffcee722
+Merge: d20a7a3 4762dd3
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Mar 3 19:07:05 2012 -0800
+
+    Merge branch 'master' into ui-url
+
+commit 4762dd3e6f46e248eab6b986f92012e7223c012f
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Mar 3 19:06:56 2012 -0800
+
+    url encode local storage of jars on supervisor
+
+commit d20a7a38f8c2c552f2c4bc327f4df5772ab66f37
+Merge: 1b4e89b 39ec53e
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Mar 3 18:22:10 2012 -0800
+
+    Merge branch 'master' into ui-url
+
+commit 39ec53e46b2ce2f62309dedb3ceba2f5f76f231b
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Mar 3 18:21:57 2012 -0800
+
+    url encode/decode storm-id when launching workers
+
+commit 439dd82c01a893702b37c37f2811576ae9fc5bb5
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Mar 3 18:17:29 2012 -0800
+
+    Revert "fix worker launching when topology name has spaces"
+    
+    This reverts commit 9b3af144847d44c01d69f8f0ccd81eacd4742d7a.
+
+commit 9b3af144847d44c01d69f8f0ccd81eacd4742d7a
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Mar 3 17:34:35 2012 -0800
+
+    fix worker launching when topology name has spaces
+
+commit 1b4e89bc9cd4e3f16f8cbae038fa0336c642c961
+Merge: 2a0cb9e 8bf19c2
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Mar 3 17:06:44 2012 -0800
+
+    Merge branch 'master' into ui-url
+
+commit 8bf19c247e72fc6830bbd6b448ba0e6e62aae27f
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Mar 3 17:06:29 2012 -0800
+
+    fix worker launching bug with space in topology names
+
+commit 3557c295079009b342aa25b9f9284c1c32263bb1
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Mar 3 17:06:05 2012 -0800
+
+    allow quoted args with spaces in storm script
+
+commit a4ca346b0703a8a8c7fc3eb331eb2e8d1e0fef51
+Merge: b5b3a62 9359ebb
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Mar 3 14:08:34 2012 -0800
+
+    fix merge conflict
+
+commit d1bc264d67190ce7ac3cfde1d1e95871e291e214
+Author: Travis Wellman <travis@archive.org>
+Date:   Fri Mar 2 14:31:32 2012 -0800
+
+    The count of a seq is 1 + the number of remaining seqs through next()
+
+commit 2a0cb9e5fb0bdad93830327dd58cf7ecfac48e3b
+Author: Kang Xiao <kxiao.tiger@gmail.com>
+Date:   Sun Feb 12 01:15:42 2012 +0800
+
+    fix storm-122 by defn url-format using java.net.URLEncoder/encode to
+    replace format
+
+commit b5b3a6203de0a409a08b38e32f81b76f36f6ae82
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Mar 1 19:58:31 2012 -0800
+
+    update changelog
+
+commit 4e52e3d848a2724c36bb8cf97d6340a9252bd3a0
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Mar 1 19:58:26 2012 -0800
+
+    check conf validity in local mode
+
+commit 29beadd5983931b230024018bd1dc24183a6a2b5
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Mar 1 19:44:15 2012 -0800
+
+    throw error if topology config is invalid
+
+commit 180975eb90cca943ca28d793709b423f10ca078a
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Mar 1 19:03:37 2012 -0800
+
+    use gnu_getopt instead of getopt
+
+commit 896a4830b703e4f832ff91f07a4f946a6a497537
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Mar 1 18:36:24 2012 -0800
+
+    update changelog
+
+commit 4d4703ceac8a90f38a4130380a8533811b1a3e14
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Mar 1 18:35:27 2012 -0800
+
+    refactor command line storm overrides, ensure they have highest priority
+
+commit 39e3079aa88d1e3550a346c0cfe1ef137580bba2
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Mar 1 18:20:22 2012 -0800
+
+    revert DRPCClient changes
+
+commit 17afe9291929579fae714b7b8bcd52cd0038f3e9
+Merge: 62b5817 0357d95
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Mar 1 18:18:34 2012 -0800
+
+    Merge remote branch 'haitaioyao/master' into cmd
+
+commit 62b5817c8b893fa0ca54e19c55edeb799f02ceb2
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Feb 28 11:33:19 2012 -0800
+
+    optimize to_maven script
+
+commit b487a4765ad6e30e28f5ce5ec0aed19e79df69c3
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Mon Feb 27 16:19:10 2012 -0800
+
+    bump version
+
+commit b3ff3ad019d57988c4fc0796d2dc99440d8b143f
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Mon Feb 27 16:19:05 2012 -0800
+
+    update changelog
+
+commit 8ea793778ee333629f49fa46c50d04d3a44842c5
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Feb 25 19:02:04 2012 -0800
+
+    update field name in coordinator batch stream
+
+commit 9359ebb44971179422d176dc89959619cb5fae0f
+Author: Gabriel Grant <g@briel.ca>
+Date:   Sat Feb 25 02:28:07 2012 -0800
+
+    Allow symlinking of the storm binary
+
+commit cc21a6bd313d4d6b817ee94a2979b7f92eb5724c
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Feb 24 13:08:17 2012 -0800
+
+    ensure ClosedByInterruptException is wrapped in an InterruptedException
+
+commit ac1d3743ae1d79fc130fe2710835df48b915c348
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Feb 24 13:03:07 2012 -0800
+
+    fix for local mode interruption problems
+
+commit 9d6761efb72f372d44e36088b0ddc51a38a00dfa
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Feb 23 12:49:26 2012 -0800
+
+    fix npe when component configuration for spout is null
+
+commit b10ebde2a514491df60b746234061fbc04e742b2
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Feb 22 22:41:24 2012 -0800
+
+    place try-cause in event-manager around complete while loop
+
+commit 93791b331a19597bda0cf44e206215836c433f7a
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Feb 22 17:13:46 2012 -0800
+
+    update changelog
+
+commit c851f395600ba4ef9b89ff379dcdd1b753f1fa8f
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Feb 22 17:11:58 2012 -0800
+
+    simplify try-cause code in event manager
+
+commit d8eca4caac749e0cbdf43e5362db4896ad106b75
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Feb 22 16:59:04 2012 -0800
+
+    mixed a try -> try-cause
+
+commit 94b9f4e386d25ec721c340fc2637994090a9ee50
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Feb 22 16:56:21 2012 -0800
+
+    use try-cause instead of try throughout code to avoid problems with clojure wrapping checked exceptions in runtimeexception
+
+commit 205c11ace476e7a028574822b8a2a38489bd5199
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Feb 22 14:47:30 2012 -0800
+
+    update changelog
+
+commit bf84f2216ac0306935316180078e1fe184e4a53c
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Feb 22 14:42:23 2012 -0800
+
+    fix setting data for ephemeral nodes if there's a timeout after checking for existence. switch task heartbeats to non-ephemeral zk nodes
+
+commit 0357d95684f959844a0fcfec2429646eb0ef5835
+Author: haitao.yao <yao.erix@gmail.com>
+Date:   Tue Feb 21 22:12:07 2012 +0800
+
+    format code
+
+commit a3be3ca1975c35b3f0a3b63f2d890e8f3bb9223f
+Author: haitao.yao <yao.erix@gmail.com>
+Date:   Tue Feb 21 22:09:37 2012 +0800
+
+    command options
+
+commit 3428bd744ef8e76aa2498c05be6f6f8633c302e8
+Author: Haitao Yao <yao.erix@gmail.com>
+Date:   Sun Feb 19 23:35:08 2012 +0800
+
+    add -c option
+
+commit e2d2adec9b29eafb63dd8f8f44c03ae2e9db2984
+Merge: 506c8ad 3651b49
+Author: haitao.yao <yao.erix@gmail.com>
+Date:   Sat Feb 18 22:37:36 2012 +0800
+
+    Merge remote-tracking branch 'remotes/upstream/master'
+
+commit 1f736b2763797cc53a74c5bdfba128b6c193c630
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Mon Feb 13 00:32:18 2012 -0800
+
+    update CHANGELOG
+
+commit 3651b494129790705f6e59674e9c5132aa4f39fe
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Mon Feb 13 00:27:16 2012 -0800
+
+    make getThisTaskIndex and getComponentTasks consistent
+
+commit 2775dd55342d4a97c38391581aa87655a74d348c
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Feb 11 19:17:41 2012 -0800
+
+    fix problem with opaque transactional spout
+
+commit 8c9de21901727b00b91d21955704bfa15e7aadfe
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Feb 11 16:48:18 2012 -0800
+
+    updated transactional topology tests to new behavior
+
+commit 3a5e40f44a5ed76e44cf5a4e3978f55a6de52772
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Feb 11 15:46:06 2012 -0800
+
+    fix minor bug in coordinator, update test
+
+commit b56a813e8ea4ecda04a5f5500dda21df35e0a35f
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Feb 11 03:49:55 2012 -0800
+
+    formatting
+
+commit 3df25ab6c9629b8b8f332c694529de2b208fce78
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Feb 11 03:49:30 2012 -0800
+
+    add opaque partitioned transactional spout to builder
+
+commit 693571f01d44db9030de0b9a37dbf86e17c58525
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Feb 11 03:30:27 2012 -0800
+
+    implemented OpaquePartitionedTransactionalSpout for transactional topologies that are idempotent even with non-idempotent batches
+
+commit ae4f11cc2ea050f85d6a55c42fd9e9207a6bdcda
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Feb 11 02:17:15 2012 -0800
+
+    replay all subsequent transactions on failure
+
+commit 353f3a0f953e3c2f5b13224b2bef8edf07604d36
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Feb 11 01:55:43 2012 -0800
+
+    updates to interfaces to support non-strict transactional topologies, need to update coordinator behavior
+
+commit cef7bee43de50b5b856de6a1c244dde650adc2ca
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Feb 10 16:30:26 2012 -0800
+
+    add maxTopologyMessageTimeout method and update acker and CoordinatedBolt to use it
+
+commit 2e81a43a4d6c01adca419cd1d1a9f116d7bdb418
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Feb 9 14:01:25 2012 -0800
+
+    typo in CHANGELOG
+
+commit 2e2f6d341544b0607d198483ced974c032482697
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Feb 9 13:58:13 2012 -0800
+
+    update CHANGELOG
+
+commit 9c72b409abd850c8c60e38354f107a77be2f9710
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Feb 9 10:54:25 2012 -0800
+
+    update CHANGELOG
+
+commit 506c8ad941cc0b9eb122b8339636eb921962198c
+Merge: 8d3e385 980d0ca
+Author: haitao.yao <yao.erix@gmail.com>
+Date:   Thu Feb 9 17:59:19 2012 +0800
+
+    merge to remote master
+
+commit 2510ba9df7240bb1d1d5cfcca2522d897fb01434
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Feb 8 22:02:02 2012 -0800
+
+    updated CHANGELOG
+
+commit 980d0ca053252a6a341bde2cc0004e54af44dd09
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Feb 8 21:43:28 2012 -0800
+
+    fix minor bug, cleanup code, optimized collector working
+
+commit 7582faa26c3a1740e7e7dae06175a5a391b45bd7
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Feb 8 20:46:30 2012 -0800
+
+    finished refactoring output collector, still a bug somewhere
+
+commit 70bc597fbe666c5d8f6aad9e0ba2a3efefc439c9
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Feb 8 02:04:32 2012 -0800
+
+    progress and notes
+
+commit 4959adf53d73a670de7f4952020262e1d6a39158
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Feb 8 01:31:31 2012 -0800
+
+    progress on refactoring, bolt + minor issues left
+
+commit 559195b1a5e8fd17c214104d5c2da58d73b0eefa
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Feb 7 19:07:31 2012 -0800
+
+    make serializer/deserializer thread/safe
+
+commit 16765f6a284b1850a7b43163745bc60adf67fee1
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Feb 7 01:24:54 2012 -0800
+
+    fix bug in TransactionalSpoutBatchExecutor where cleanup could happen before the new metadata is saved
+
+commit 943561f4adcff1fa156a45d47014b3b6f94ca986
+Merge: df6a418 06d716c
+Author: Nathan Marz <nathan.marz@gmail.com>
+Date:   Mon Feb 6 12:06:45 2012 -0800
+
+    Merge pull request #113 from danharvey/drpc-conf-npe
+    
+    Added check for null servers list on the setup of the DRPCSpout. Fixes #...
+
+commit 8d3e385b8dde74506147d710bcb83b3a2e79b6f9
+Author: haitao.yao <yao.erix@gmail.com>
+Date:   Mon Feb 6 16:34:40 2012 +0800
+
+    Issue:62 & Issue: 95 , reformat the code
+
+commit df6a4186f43d701572fe7779eb51519a851f088a
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sun Feb 5 22:34:08 2012 -0800
+
+    fix local mode so that multiple topologies can run on one cluster
+
+commit 643bfcc8a3f54dfcf12d491e2ae27cf97b330023
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Feb 4 01:42:52 2012 -0800
+
+    add contributor
+
+commit 369a5cc93689e98fac454262a25d54310427e3c1
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Feb 3 19:46:18 2012 -0800
+
+    simplify zookepeer client creation
+
+commit 3244f193b52e274c860f0c9c656c7a43c206df88
+Merge: b34a753 de3de42
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Feb 3 19:14:38 2012 -0800
+
+    Merge remote branch 'dennis/curator' into curator
+
+commit b34a753fd7964bed4a64ac94043ebdf944103a11
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Feb 3 17:03:59 2012 -0800
+
+    add contributors
+
+commit 37d004aeb4fed698cc9b69eb757bb540712895d2
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Feb 3 16:59:50 2012 -0800
+
+    cleanup storm script a bit more
+
+commit b88a8fd874031efdf7fffa55518aa2e8f859705c
+Merge: 5d245da b9f2cbf
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Feb 3 16:53:35 2012 -0800
+
+    Merge remote branch 'kachayev/storm-client-help' into cmdline
+
+commit 5d245da4a426a7eba8b054ad6fa175789fb178c9
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Feb 3 01:11:13 2012 -0800
+
+    pass storm.home property into workers
+
+commit 7013666812f01580b11b46615e370eaf7e3c6f1a
+Merge: b3c3239 bcbc1c8
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Feb 2 23:18:16 2012 -0800
+
+    Merge branch 'master' of github.com:nathanmarz/storm
+
+commit bcbc1c831ba4fb32de278570edbcbb2e15e9cfad
+Merge: 45a62dd c6712a1
+Author: Nathan Marz <nathan.marz@gmail.com>
+Date:   Thu Feb 2 22:53:39 2012 -0800
+
+    Merge pull request #121 from haitaoyao/master
+    
+    add storm home for default log4j configuration to use absolute path for logs folder
+
+commit b3c3239135ee3e016978533bbf064003e749b29d
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Feb 2 16:26:42 2012 -0800
+
+    added contributor
+
+commit 45a62dd2281e82fe5fbe0cb44b2010c93a462206
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Feb 2 15:32:37 2012 -0800
+
+    forgot moved file
+
+commit fa8a26fc55e74400c7abc2cd88b1c54f8fb0c53e
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Feb 2 15:29:52 2012 -0800
+
+    fix type hints and small issues with clojure enhancements
+
+commit 526dcc0ae86968a36a90502a77de9ab2a8db1f14
+Merge: 8a64e43 d4e3d3d
+Author: Ben Hughes <ben@pixelmachine.org>
+Date:   Wed Feb 1 16:21:08 2012 -0500
+
+    Merge branch 'master' into clojure_tuples
+    
+    Conflicts:
+    	src/clj/backtype/storm/testing.clj
+    	src/jvm/backtype/storm/drpc/CoordinatedBolt.java
+    	src/jvm/backtype/storm/tuple/Tuple.java
+
+commit d4e3d3d5301fe2c8a1a9ff81cbd7ec597c14f2cd
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Jan 31 20:50:08 2012 -0800
+
+    remove unused source file
+
+commit c6712a1e7265bb72a72ba0e983e60d195071596f
+Author: haitao.yao <yao.erix@gmail.com>
+Date:   Mon Jan 30 13:58:35 2012 +0800
+
+    add storm dir for logs folder to use absolute path for logs folder
+
+commit 87fc76453397ad4b6ad059e01c56f322875c3e7a
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sun Jan 29 02:14:24 2012 -0800
+
+    updated changelog
+
+commit 1cfd17e73d2d804c2ca908a8ff8d10663466d369
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sun Jan 29 02:03:09 2012 -0800
+
+    updated changelog
+
+commit 39728a6c5bd7d3c1d9b88a6ff28604513bd8d7bf
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Jan 28 23:44:29 2012 -0800
+
+    doc
+
+commit 2ba30d21159de6592165e7d7d68dc74784a48223
+Merge: eeb7f55 e70fa8c
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Jan 28 22:49:09 2012 -0800
+
+    Merge branch 'master' into transactional-spout
+
+commit e70fa8c43c31d0840040cb997b14e4e01f8da148
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Jan 28 22:46:24 2012 -0800
+
+    update javadoc script
+
+commit eeb7f55d5852f2b11a78ac7ec8009764dd5ba952
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Jan 28 22:39:17 2012 -0800
+
+    add javadoc for transactional spouts
+
+commit b9f2cbf4f730e7feabb3af6ad8d3b06a0e57e8c5
+Author: Alexey S. Kachayev <kachayev@gmail.com>
+Date:   Sun Jan 29 01:28:37 2012 +0200
+
+    Help message per commands for Storm client, simple error handling, fix miscs
+
+commit 8e34af78a08d1b2ac31de4d2e1d006a71d9aff79
+Author: Dan Harvey <dan@state.it>
+Date:   Sat Jan 28 12:31:51 2012 +0000
+
+    Added the lein eclipse plugin to the project.clj. You can generate eclipse .project and .classpath files by running lein eclipse.
+
+commit 06d716c08a00fc5e3fb3ecf12e1dbb703756e9c9
+Author: Dan Harvey <dan@state.it>
+Date:   Sat Jan 28 12:21:51 2012 +0000
+
+    Added check for null servers list on the setup of the DRPCSpout. Fixes #112
+
+commit 2a731bc03f79b1734aceea2b2cd0be5c31afad63
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Jan 28 01:48:42 2012 -0800
+
+    allow null parallelism for components
+
+commit bfb22f946cb86be986b0cc6658e01cdffbb02940
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Jan 27 20:49:06 2012 -0800
+
+    changed FailedBatchException to FailedException and moved it to topology namespace so it could be used with basicbolt as well
+
+commit 69bad92f2f7aadff2c704279a9b3198eba813a35
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Jan 27 20:31:00 2012 -0800
+
+    add ability to store data inside the topology context (for data that's needed across different instances of a batchbolt, for instance
+
+commit 9c3a4b7614102c8e120a9736d45902f881f0fd13
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Jan 27 15:58:44 2012 -0800
+
+    make zookeeper cluster used for transactional state customizable
+
+commit 6bcd3bb4cbd0652f01f2c28a25619d7f6477e064
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Jan 27 13:55:35 2012 -0800
+
+    deprecate richbolt interface for drpc
+
+commit a18a51f6b12ef870143d15a2d127207d8429dff9
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Jan 27 13:51:27 2012 -0800
+
+    downgrade supervisor cleanup log message to a warning from an error (since it's expected)
+
+commit 8795c6fd923f76d81a54622eaba854886b8df66b
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Jan 27 10:44:16 2012 -0800
+
+    add helper constructors to TransactionalTopologyBuilder
+
+commit 3f911f6c24457afafc4b1985343bc63bd5cf9e7c
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Jan 27 10:41:04 2012 -0800
+
+    fix batchboltexecutor to not be specific to transactionattempts
+
+commit b1d1f9e0f15a320993e36538d80c070428d3374f
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Jan 27 10:35:42 2012 -0800
+
+    fix timer shutdown code to check for interruptedexceptions nested as a cause of a runtime exception
+
+commit 297ee5a439c8b082ab5ffc0061d657687e1221ad
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Jan 27 10:29:35 2012 -0800
+
+    unify committer and batch bolt abstractions with the ICommitter interface, this greatly simplifies the transactional topology abstraction and makes things more reusable
+
+commit 634706fa08cbd3302df9d6c22ca6c993675c8531
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Jan 27 00:27:40 2012 -0800
+
+    remove TODO
+
+commit 941ef6362ba7b69856b27b52b10a87fb248ec8b8
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Jan 26 19:23:29 2012 -0800
+
+    tests for throwing failedbatchexception in finishedId
+
+commit b904e96c683ef0281949b7dfb543223702575908
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Jan 26 18:26:48 2012 -0800
+
+    implemented FinishBatchException for finishBatch phase of coordination
+
+commit ba5477f0a09ac54682668abce097f2221384510c
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Jan 26 14:52:01 2012 -0800
+
+    remove println
+
+commit e223f937a8696c73aba8e2792f7e6b88809e77c4
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Jan 26 14:50:13 2012 -0800
+
+    finished test for restarting a transactional topology
+
+commit facc876e99d566a89b52e1207fb4742cdc5bb0b7
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Jan 26 14:49:55 2012 -0800
+
+    fix max transaction active parsing bug
+
+commit b8b4f22010bd99694f8d60f5cb0ad40e40867cd2
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Jan 26 13:43:07 2012 -0800
+
+    remove TODOs
+
+commit 80c797353095cf2420514bdc53daa110c4ea9085
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Jan 26 13:42:25 2012 -0800
+
+    expanded transactional tests to test tasks that receive no tuples
+
+commit e1299809a5af84557a94df1f7b8ecb2ace3aa755
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Jan 26 03:53:28 2012 -0800
+
+    finished most difficult transactional test
+
+commit ea8b4b9304f2f5166cda919bc3ff257a8dd13f2f
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Jan 26 02:03:11 2012 -0800
+
+    progress on transactional tests, working so far
+
+commit 51d59ec032cb54ddaa7f3c6b47ad348b67130141
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Jan 26 01:24:54 2012 -0800
+
+    infrastructure functions for transactional topology testing
+
+commit 7989c581876f60881c77aba5a611db0948d0121c
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Jan 25 23:45:51 2012 -0800
+
+    test topology for transactional topologies
+
+commit d56be3fc2a16681f0ce30c617bdac0d8bf3245a0
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Jan 25 22:59:15 2012 -0800
+
+    get rid of richbolt setters in transactionaltopologybuilder
+
+commit 20a29802b0566f72fadd56dc8c661b531eb8fd80
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Jan 25 22:38:24 2012 -0800
+
+    fix typo
+
+commit 27d1b8a5177099df6f33d5ae228b7658682709d1
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Jan 25 22:38:02 2012 -0800
+
+    clean up coordinator component conf
+
+commit e5789d49094b63e055b4ac164e609b379ee5f0c5
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Jan 25 22:37:28 2012 -0800
+
+    implement controlling bolt, fix bug in transactionalspoutcoordinator component config
+
+commit afe8ee8ff4540830b4da87174dfd2908b0ba39f8
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Jan 25 20:08:26 2012 -0800
+
+    generalize tuple capturing code so it can be composed
+
+commit 743645ed7439e9896535bcf4e2e9ae2d78d82414
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Jan 25 18:36:32 2012 -0800
+
+    generalize tracked-topology so it can work with transactional topologies
+
+commit fc63b2d286a73944ca9035b2ac3665b5d187d90b
+Merge: 26cc00a 238f1c9
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Jan 25 16:00:45 2012 -0800
+
+    merge master
+
+commit 238f1c934e0dcc8e5339376c167fe6326c50b5fb
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Jan 25 16:00:11 2012 -0800
+
+    update changelog
+
+commit a5a7c8c0ba8550ccdc66ef48daf8ca4a39420546
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Jan 25 15:38:46 2012 -0800
+
+    fix conf parsing code to not filter out whitespace
+
+commit e159c3a53d221e59652fc598216b3c33e73ca2f0
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Jan 25 15:36:54 2012 -0800
+
+    add ui.childopts to Config class
+
+commit 66c1dfd15945c87a7e8adf970d890efe65f787f0
+Merge: 66810d6 33272f3
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Jan 25 15:36:07 2012 -0800
+
+    Merge branch 'master' of github.com:nathanmarz/storm
+
+commit 33272f32fad813fe062a239fca527f1019e17d25
+Merge: df4692c 09372b1
+Author: Nathan Marz <nathan.marz@gmail.com>
+Date:   Wed Jan 25 15:35:43 2012 -0800
+
+    Merge pull request #105 from ddillinger/update_childopts
+    
+    Update childopts for supervisor; add childopts for ui; bin/storm polish
+
+commit 66810d62c8b02f107a8dc3fafae831e21c752e35
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Jan 25 15:33:25 2012 -0800
+
+    bump version
+
+commit 26cc00aa45c37f949582d0551708173035454331
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Jan 25 15:33:12 2012 -0800
+
+    testing progress
+
+commit ff2e570b80671b6006adccfec3390c30bed6b79b
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Jan 25 12:27:11 2012 -0800
+
+    fix race condition in coordinatedbolt
+
+commit 2e1b64047ec0b6a1139a369963f31fba0a94ab36
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Jan 25 01:21:29 2012 -0800
+
+    remove TODOs
+
+commit 93029ad7e9b3abe55af5f01205a8f377588a85e9
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Jan 25 01:18:09 2012 -0800
+
+    remove TODO
+
+commit 306a8b9280aafe21e34d40e773e5ba8444e967b6
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Jan 25 01:08:55 2012 -0800
+
+    remove imports
+
+commit b8bafcd71293136aceacca3ea9df666db83cef5f
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Jan 25 00:57:14 2012 -0800
+
+    add helper tostring
+
+commit fe87c3e6516bfb3cf351666f62600a8a583ba87a
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Jan 25 00:44:05 2012 -0800
+
+    remove pass through id stream spec abstraction
+
+commit 5cdfc047cc5d3fbf4797c56e4befb6f6e282d58d
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Jan 25 00:39:28 2012 -0800
+
+    get rid of now unecessary IAnchorable and FinishedTuple abstractions
+
+commit 17863eb328332af14568862a61b88c17e7c42ee0
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Jan 25 00:28:36 2012 -0800
+
+    refactored batch bolts and collectors into coordination package and added the functionality to drpc
+
+commit c9720b698380962933791cfee871149669ece440
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Jan 25 00:18:04 2012 -0800
+
+    generalize batching bolt and transactionalcollector so that stuff can be reused for drpc
+
+commit 94371832f2faf2ac2018a5a33ddc5608e980e596
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Jan 25 00:04:38 2012 -0800
+
+    add timeout callback to coordinatedbolt, redo transactional topologies to get coordination working properly on process and commit phases
+
+commit f5254d0cbe08fa710cb237a1ecc17fc219937a52
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Jan 24 14:50:29 2012 -0800
+
+    fixed little bugs for transactional topologies
+
+commit ae28a9b02e4b13e8788ba2e545bf584f21cc8888
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Jan 24 03:39:11 2012 -0800
+
+    fixed a bunch of small bugs
+
+commit ed508024e469821929eb295ff6f85e777cf1d0ec
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Jan 24 00:29:10 2012 -0800
+
+    fix import
+
+commit b13f9fe84c6ae72177e9649433e34506b8edbc08
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Jan 24 00:25:55 2012 -0800
+
+    simplified complete-topology protocol, implemented MemoryTransactionalSpout (and code to detect when it's finished)
+
+commit b88933b196499f05638439c56348e499edfd04da
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Mon Jan 23 14:47:05 2012 -0800
+
+    add ability to fail transactions using an exception
+
+commit 8890121b424c024f5a11b415a308f13060f3fed7
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Mon Jan 23 14:26:06 2012 -0800
+
+    remove TODO
+
+commit 1a3f6d44926d4ceb6f959002c122c9ea3ec2ab62
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Mon Jan 23 14:23:16 2012 -0800
+
+    propogate fails in coordinatedbolt to rest of the tuples... this makes fail work again for transactional and drpc topologies (without requiring every tuple to be anchored)
+
+commit 16b6777c0cb00ae48996637d1ae5d0a7d79cd0b4
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Mon Jan 23 14:07:55 2012 -0800
+
+    generalize complete-topology so that it can be used for transactional topologies
+
+commit 670bc7af82eeb07fa83b4ec4af07cefea3a25521
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Mon Jan 23 02:01:17 2012 -0800
+
+    more notes
+
+commit 9cab7bd1712d6c60c584643201c8ac2f989d278e
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Mon Jan 23 01:59:34 2012 -0800
+
+    notes on testing transactional topologies
+
+commit b993ec7567ebe7a46bd7dc53b1dee56595d3642e
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Mon Jan 23 00:09:11 2012 -0800
+
+    formatting
+
+commit 22e48790431c407d89b329fb9ab9f976780d9b0e
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Mon Jan 23 00:04:07 2012 -0800
+
+    rotating transactional state tests, gix bug in cleanupbefore
+
+commit a0d3dca54a66dfc9650a357687a106c9dd284bea
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Jan 21 19:14:48 2012 -0800
+
+    transactionalboltexecutor tests
+
+commit a306adbc7b940d9aa99555b5f5cedb786840929f
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Jan 20 16:27:33 2012 -0800
+
+    output collector mocking for transactional tests
+
+commit 752b4be0cdcd2b5997310b9623d013163bbfe407
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Jan 20 15:21:58 2012 -0800
+
+    fix coordination of transactional topology with id stream
+
+commit df4692c0a5bc1346ad62918998979a933dc73cf4
+Author: Sam Ritchie <sritchie09@gmail.com>
+Date:   Fri Jan 20 09:52:34 2012 -0800
+
+    Two nitpicky changes in util.
+
+commit 21ddd27344e6bf3a03140355713ef8ff663b7b65
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Jan 20 01:35:54 2012 -0800
+
+    add comments and logging about failed commits
+
+commit 9a375581ddcf3d3c2a82af4f5b4854e331fd9e30
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Jan 20 01:31:45 2012 -0800
+
+    make transactionalbolt enforce that it only commits when it has received a finishedBatch message
+
+commit de4027f967e335e97c34ab69663f3f59d8ad4299
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Jan 20 01:31:04 2012 -0800
+
+    make sure transactional topology coordinates on the batch id for committer bolts
+
+commit 0ee45b138a2453671ec1f98fdc5e74b285421f22
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Jan 20 01:11:55 2012 -0800
+
+    transactional coordinator tests
+
+commit 18bd95078ee2cbc742d335d02480a8e954dfe3a0
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Jan 19 16:21:32 2012 -0800
+
+    fix comment
+
+commit 2d72b94c6fbdbb72ad1e5d39e2ca4481f26d41fa
+Merge: 74a7947 51359f3
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Jan 19 16:15:48 2012 -0800
+
+    Merge branch 'master' into transactional-spout
+
+commit 51359f38d6eec4d95c5c36ce949d3b73b78ccd1b
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Jan 19 16:12:01 2012 -0800
+
+    typo
+
+commit bf034aade09bf0a2b33e7a5860755403c31c52dd
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Jan 19 16:08:52 2012 -0800
+
+    update contributors list
+
+commit a4f71940855a5d719e3a3a7d0d3a598117906dd6
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Jan 19 16:08:45 2012 -0800
+
+    update CHANGELOG
+
+commit 09372b158987358472ce0c7489378db4255dac28
+Author: Dan Dillinger <ddillinger@navisite.com>
+Date:   Thu Jan 19 14:38:02 2012 -0500
+
+    extra p
+
+commit 502902cb63b5b2d3c216eb840ca464f325bc3f0f
+Author: Dan Dillinger <ddillinger@navisite.com>
+Date:   Thu Jan 19 14:35:05 2012 -0500
+
+    * Added ui.childopts to conf/defaults.yaml
+    * Added ui.childopts inclusion to 'storm ui' command.
+    * Fixed 'storm supervisor' to use supervisor.childopts instead of nimbus.childopts.
+    * Added 'storm help' as a default, if the right number of args is provided but no match is found.
+
+commit 74a7947b8890dc8c94dd266929c62a1bf1bb4b7f
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Jan 19 02:50:43 2012 -0800
+
+    update testing notes
+
+commit faa5d74870c14303bdc3b15472e9a555aacf80cc
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Jan 19 02:38:42 2012 -0800
+
+    start of tests for transactional topologies
+
+commit db6b1c5a6b89a1a70e22dfa99e352d4e61c2819d
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Jan 19 02:38:28 2012 -0800
+
+    fix tiny bugs related to transactional topologies
+
+commit a79a8797b95ed7fbe6b3c13b815a9c995cf43599
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Jan 18 03:22:12 2012 -0800
+
+    remove unneeded code
+
+commit c6add157958739968b51c96ae0238b8e8114818d
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Jan 18 02:06:11 2012 -0800
+
+    cleanup transactional api, revert partitionedspout to assign partitions using modulo math
+
+commit 315934786b7e2459092d44e59ec8ea6e0168bbb2
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Jan 18 02:05:42 2012 -0800
+
+    bump project.clj to 0.7.0-SNAPSHOT
+
+commit aff550f7c74c392feb0ee19a14ec4cc4b47bb337
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Jan 18 02:05:28 2012 -0800
+
+    add ByteBuffer -> byte array function
+
+commit 1bdfd9dc38f9ff2a598a60ba9c129333bdc0403c
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Jan 17 18:45:31 2012 -0800
+
+    make partition ids chosen by a partitionedtransactionalspout sequential
+
+commit 55880e2555704be0f8abc06dd996c9ce32e70838
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Jan 17 18:14:33 2012 -0800
+
+    rename commit on rotatingtransactionalstate to cleanupbefore
+
+commit d0eac20d71ebcb18801146b03881b58bb5eda5d4
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Jan 17 18:11:39 2012 -0800
+
+    make transactional topology id declared through transactionaltopologybuilder and funnel it through component confs
+
+commit 8a64e433605c6bc9c4ad5a341afcf13b71dc1888
+Author: Ben Hughes <ben@pixelmachine.org>
+Date:   Tue Jan 17 14:11:18 2012 -0500
+
+    silly mistake in args hinting
+
+commit 00366779dfea99d451989970ee426efa682d625d
+Author: Ben Hughes <ben@pixelmachine.org>
+Date:   Tue Jan 17 13:29:39 2012 -0500
+
+    minor cleanup
+
+commit 75f1d1a4af7cbab27241fd2f31c72303f512b1d8
+Author: Ben Hughes <ben@pixelmachine.org>
+Date:   Tue Jan 17 13:18:03 2012 -0500
+
+    Remove access to a collector's context
+
+commit 4925294d907f1894d38b65782f4de4d0f92816ef
+Author: Ben Hughes <ben@pixelmachine.org>
+Date:   Tue Jan 17 13:13:20 2012 -0500
+
+    Fix type hinting for hinted-args and closures vs. prepare method
+
+commit c28b350ac979603a5a761ead5c117e047c65b056
+Author: Ben Hughes <ben@pixelmachine.org>
+Date:   Tue Jan 17 12:02:17 2012 -0500
+
+    Changed clojure bolts and spouts to take a map for collector
+
+commit 806de3c1720719b0c430da85ea2cffceb1661236
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Mon Jan 16 21:33:13 2012 -0800
+
+    fix casting typo
+
+commit 3e53314576071cbb44ada8528d5f2919bea51e5d
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Mon Jan 16 16:10:33 2012 -0800
+
+    cleanup API
+
+commit 19cb2974b7ca77d02c406088eb57005b3265230c
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Mon Jan 16 16:10:14 2012 -0800
+
+    notes on what needs to be tested for transactional topologies
+
+commit 7dcc258e12139c987a919da38e5bfeee789610c9
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Mon Jan 16 16:09:56 2012 -0800
+
+    cleanup resources when finished with non-committed batch
+
+commit c4eadcf58df045e49d02a6a84743f53e9186c9a1
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Mon Jan 16 14:32:52 2012 -0800
+
+    comment
+
+commit f03481678ee0079c9dacb65a9df42f638b866e73
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Mon Jan 16 14:26:25 2012 -0800
+
+    optimize transactional topologies by taking out anchors
+
+commit e3af1b19e782858b7f5ba7d95d1d7b1403f0be4d
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Mon Jan 16 14:02:09 2012 -0800
+
+    partitionedtransactionalspout implementation plus fix up a few apis
+
+commit c5c375221cfc333d76cfa88e2bf576036fb21414
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Mon Jan 16 02:34:19 2012 -0800
+
+    cleanup interfaces
+
+commit 60613149b802e88064383461319ef708aa69e69d
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Mon Jan 16 02:23:42 2012 -0800
+
+    fix BaseTransactionalSpout
+
+commit e7003a75b65f34483a520e04ac71a8ee73bb08bd
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Mon Jan 16 02:11:25 2012 -0800
+
+    finished initial implementation of transactionalspout with zk state management
+
+commit f16fa2bfc80569dae5a95680bba199abb96db389
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Mon Jan 16 01:53:23 2012 -0800
+
+    make txids BigInts, make rotatingtransactionalstate abstraction
+
+commit 0b5135f5e2e60ad9297f12021c209344919f1d44
+Merge: 5124069 baae324
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sun Jan 15 18:28:19 2012 -0800
+
+    Merge branch 'master' into transactional-spout
+
+commit baae324079cf5a62f1c72e29c2196c336b53f070
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sun Jan 15 18:27:58 2012 -0800
+
+    protect priority queue with a lock
+
+commit 51240693d9e186db58594984bda264b2ebbfe74b
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sun Jan 15 18:27:34 2012 -0800
+
+    notes
+
+commit 4c5632d0245cfffb6c1b2cca8e8736f151c15a2b
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sun Jan 15 18:27:14 2012 -0800
+
+    make biginteger serialize by default
+
+commit a62fcce5e672dcf777673941c864aa93b0cc6d5a
+Merge: 46f860b 2529452
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sun Jan 15 18:05:59 2012 -0800
+
+    merge with master
+
+commit 25294526e61e8029393667061b921dac54395b96
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sun Jan 15 15:29:51 2012 -0800
+
+    make fix for #82 work on windows as well
+
+commit 58eb7bd911381d337a981914523aa3536ff1bbae
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sun Jan 15 03:09:35 2012 -0800
+
+    update changelog
+
+commit d29cf6a591869989edb42629287420fcadd321c0
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sun Jan 15 02:54:31 2012 -0800
+
+    extract resources dir from jar in local mode when necessary, fixes #82
+
+commit 5771c1c18ee6ed1c77bbe5bbc1bd48b4dc07f91d
+Author: Ben Hughes <ben@pixelmachine.org>
+Date:   Sat Jan 14 18:02:44 2012 -0500
+
+    Change mk-tuple-values into a protocol
+
+commit 139026a453e7da8fa9523ca377830b2ca5a4c0ff
+Author: Ben Hughes <ben@pixelmachine.org>
+Date:   Sat Jan 14 17:55:34 2012 -0500
+
+    don't use recursive walk to stringify-keys
+
+commit 51fab9ed23d65045b76ddefaa60eb24a767c5050
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Jan 13 14:22:57 2012 -0800
+
+    typo
+
+commit 46f860bf5ca1dab7c485e8b193998da6883d085e
+Merge: d3f28a6 0876c31
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Jan 13 03:49:06 2012 -0800
+
+    Merge branch 'master' into transactional-spout
+
+commit 0876c314a8e53bcec66e578b4edcf32e2d76cbc9
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Jan 13 03:22:09 2012 -0800
+
+    clarify changelog for 0.6.2
+
+commit 64a686be70b54cd972b80c3d75ef2f10af5ef1d2
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Jan 13 02:12:02 2012 -0800
+
+    update changelog for 0.6.2
+
+commit ff3364a975bc28f68703df65ec2461c92a25dd5d
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Jan 13 02:03:56 2012 -0800
+
+    added changelog
+
+commit 79f792128b6de251e83621f257ec5020f2cfd9fd
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Jan 13 01:53:01 2012 -0800
+
+    fix detection of waiting with time simulation in case of dead threads
+
+commit 3038ff09373454946cff602d8a1c6e2ad7c28760
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Jan 13 01:23:28 2012 -0800
+
+    fix concurrency and time simulation problems with timer by taking a much simpler approach
+
+commit 9576260c5c45bdaeb3b5b4481edf78ae4a3672b6
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Jan 13 01:23:09 2012 -0800
+
+    fix conf reference
+
+commit de3de421a7d0a6ef5bfd8ce5f606dd1e5c9e82c6
+Author: dennis zhuang <killme2008@gmail.com>
+Date:   Fri Jan 13 11:31:09 2012 +0800
+
+    Adds storm.zookeeper.retry.times and storm.zookeeper.retry.interval configs for zookeeper
+
+commit 0ae5b15f215e5ac4cf8e3f66c07b8489923f78f2
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Jan 12 17:13:20 2012 -0800
+
+    rename inbox frequency config to be more descriptive
+
+commit f099259c0128e60276f7931ecd18c39af1b2d94d
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Jan 12 17:13:03 2012 -0800
+
+    remove uncessary validation
+
+commit 9dacabe703968ea4ae0d23e600f734fd7f843ced
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Jan 12 17:06:00 2012 -0800
+
+    fix minor issues with time simulation
+
+commit 53ce477c78f9d0a051e6d1d644309079ab6d5e85
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Jan 12 16:47:48 2012 -0800
+
+    simplify inbox cleaning code
+
+commit f2266958346807d8f62f3c790bccf26cb7880def
+Merge: 20e1ef9 5046c24
+Author: Nathan Marz <nathan.marz@gmail.com>
+Date:   Thu Jan 12 16:32:03 2012 -0800
+
+    Merge pull request #93 from trevorsummerssmith/inbox-clean
+    
+    Delete nimbus inbox jars with a simple scheduled delete job
+
+commit 20e1ef9bff4092d6438ebda32ec985b616bddd8c
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Jan 12 14:09:11 2012 -0800
+
+    resolve #99 by making the timer lock completely independent from the submit lock. the timer releases the lock before calling the task function.
+
+commit d3f28a69c521db40cb52797f4582f1973aecdf02
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Jan 12 13:57:16 2012 -0800
+
+    progress on state
+
+commit 619f2fdef79df82fea98cfb6d8bfc12ecbc7f31e
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Jan 12 01:21:54 2012 -0800
+
+    more debug logging
+
+commit d809dd629b3781d4c8aa14b192ee5d4da915c4ac
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Jan 12 01:21:31 2012 -0800
+
+    progress
+
+commit 38bae1704454ad1c9867cb28b5c6cd7e1b83d219
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Jan 11 18:40:15 2012 -0800
+
+    added component specific confs to drpc and transactional builders, progress on transactionalstate
+
+commit ee769e8009a4b06a45b7217f7ae866e50cf0edd8
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Jan 10 22:04:57 2012 -0800
+
+    added test that component specific configs in clojure dsl work correctly
+
+commit 3840655f40ebb063a1cccc5465b0c87b91977168
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Jan 10 21:45:45 2012 -0800
+
+    refactor mk-topology to use TopologyBuilder, add component specific configurations to clojure dsl
+
+commit ca387422892b28bdfcf7595d8a9e58a3f08e1460
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Jan 10 20:09:59 2012 -0800
+
+    refactor test by making TestPlannerSpout more general
+
+commit a6dc3ad29b675b453dd603f16b546a2cd645f109
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Jan 10 20:03:49 2012 -0800
+
+    thorough test for component configurations, fix bug in generating list of all configs
+
+commit 95e062453070df1a59648e5e407522bdcd95ae11
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Jan 10 19:24:04 2012 -0800
+
+    debug logging
+
+commit 06a8c4a8f93d46ddf224121cf02e61e835a7cc09
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Jan 10 14:36:24 2012 -0800
+
+    debug logging in supervisor
+
+commit 7028d12d4b854ed3f00c5492bbf29660d25b2e7d
+Author: Ben Hughes <ben@pixelmachine.org>
+Date:   Tue Jan 10 15:16:01 2012 -0500
+
+    Add test case for emit passed an arbitrary map with mixed symbols and keys
+
+commit ff82ec375a47ef163b38e806cb95c07c1f86ee4b
+Author: Ben Hughes <ben@pixelmachine.org>
+Date:   Tue Jan 10 02:31:58 2012 -0500
+
+    Correctly handle arbitrary maps passed to emit
+
+commit 102824902199a35331afa517bc4dd2c6666f96f8
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Mon Jan 9 16:50:19 2012 -0800
+
+    add sugar to fluent API for component configurations
+
+commit a7da0cc79471fb9a2702409d5a14b88b481a998d
+Author: Ben Hughes <ben@pixelmachine.org>
+Date:   Mon Jan 9 13:37:39 2012 -0500
+
+    Fixed bugs, added tuple tests
+
+commit b37dfdbb13fb0c1c58f47203da6c5097242e92ce
+Author: Ben Hughes <ben@pixelmachine.org>
+Date:   Mon Jan 9 06:04:28 2012 -0500
+
+    Working emit with map from clojure
+    
+    * Should probably refactor a bit and test more
+
+commit 878293f2fe0ca7120cc16ff5ece4eac676cb800f
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Mon Jan 9 01:55:17 2012 -0800
+
+    notes on component specific configuration unit test
+
+commit 26cf709faa6db019b642f362c85083a9ad7a82ac
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Mon Jan 9 01:52:07 2012 -0800
+
+    fixed typos, tests passing with component specific configuration, need more tests for component specific configuration
+
+commit 1600c312e2b6a51c887afd47b47c7079885f02c8
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Mon Jan 9 01:41:08 2012 -0800
+
+    implemented component configurations for clojure topology builder, fixed nimbus tests
+
+commit c67f3579f05a93308303f315aff60a850ed46818
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Mon Jan 9 01:28:01 2012 -0800
+
+    make transactional stuff compile for now
+
+commit 030304ce4242201ffc0a55f409df18af3237b6ad
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Mon Jan 9 01:26:01 2012 -0800
+
+    comment
+
+commit 225255ada7717b80f5d0abb452980038de16b26a
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Mon Jan 9 01:25:18 2012 -0800
+
+    component level serializations are properly merged into global serializations for topology
+
+commit e1ccf0cd44eec68f7bbea4e424da5564017b02a5
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Mon Jan 9 00:21:03 2012 -0800
+
+    remove isDistributed, reimplement component parallelism assignment to take into account component specific topology-max-task-parallelism
+
+commit bbe4aee5ac77533fa7492f5bef03e2cd2ec2a68b
+Author: Ben Hughes <ben@pixelmachine.org>
+Date:   Mon Jan 9 03:13:33 2012 -0500
+
+    Tuple is now also a Map
+
+commit 4cc3ce59a2272674805e8023e71bde4da6273619
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Mon Jan 9 00:01:21 2012 -0800
+
+    implemented task side of component specific configurations
+
+commit 86b45723532d9b76aa8de9bcea8d29e371aa95de
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Mon Jan 9 00:01:00 2012 -0800
+
+    add methods for serializing individual objects
+
+commit ff423ae49fa5e06e45108c54727ded93d355c0a5
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Mon Jan 9 00:00:47 2012 -0800
+
+    assume zk in transactional interface
+
+commit 47a8b19c245dc327c61ce70ed68a4f9341991787
+Author: Ben Hughes <ben@pixelmachine.org>
+Date:   Mon Jan 9 02:44:09 2012 -0500
+
+    Tuple can now be modified as a PersistentMap
+
+commit 8279bff0c79319e058d1a9fb1429b55d9488ee89
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sun Jan 8 23:17:52 2012 -0800
+
+    default transactionalspout to only do one transaction at a time
+
+commit d9df90fd2fae8801b596d020b267774aef520bc5
+Author: Ben Hughes <ben@pixelmachine.org>
+Date:   Mon Jan 9 02:06:06 2012 -0500
+
+    Made Tuples operate better in Clojure
+    
+    * Now implements ILookup, AFn, Seqable, Indexed, IMeta
+    * Fake tuple generator for testing
+
+commit 9a6881b93f1ccdbed1d6d66b575de3c3acf9dd59
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sun Jan 8 23:06:05 2012 -0800
+
+    implemented java api portion of component configurations
+
+commit a5e14a22a85fa205fcb4b3127e4014db75fb2c57
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sun Jan 8 20:22:20 2012 -0800
+
+    updates for component specific configurations
+
+commit 02dabc54ee827bcf46a2a469bab2215235ebed81
+Merge: fc5ae41 a3094ef
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sun Jan 8 19:37:24 2012 -0800
+
+    fixed conflict
+
+commit 5046c24eef630ce2f25e47d0ef13b6fc275fa1e0
+Author: Trevor Summers Smith <trevorsummerssmith@gmail.com>
+Date:   Sat Jan 7 15:48:14 2012 -0500
+
+    Delete nimbus inbox jars with a simple scheduled delete jars job
+    
+    This is meant to close issue 34 (Nimbus should clean inbox)
+    
+    Adds two new config variables to control how often the cleaner jobs
+    runs and how old a jar needs to be before it will be deleted.
+
+commit a3094ef9cd940bf5c309d7abd496f4693e31f621
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Jan 5 04:52:57 2012 -0800
+
+    don't try to emit clojure stdout/err for now
+
+commit 130c34e652706acbc9e9c9c49352e8dc9d9cd920
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Jan 5 04:30:52 2012 -0800
+
+    ignore extra whitespace when launching commands
+
+commit a6fcc6ed17f7861b0ed8a46bc54903c313c4908b
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Jan 5 03:43:12 2012 -0800
+
+    redirect all stdio to regular worker log file
+
+commit 8833764ffec48c869c10b504093bbe0b78c1f304
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Jan 5 01:46:42 2012 -0800
+
+    remove ability to customize HWM, as it's not actually useful
+
+commit 83e2eecc662e19b20559b8483c41d7db865d401c
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Jan 4 23:33:26 2012 -0800
+
+    implemented configurable high water mark for zmq
+
+commit 317710d07a1b836478a2bd4aa08c9937554d9d1b
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Jan 4 23:16:15 2012 -0800
+
+    implemented topology.worker.childopts
+
+commit f7fa84ab322657e44897a495d7299d9f453639a8
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Jan 4 23:11:42 2012 -0800
+
+    refactor reading of topology and topology config from supervisor cache
+
+commit 7cce193313f89b9afa7f57e288993235e9f8c165
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Jan 4 22:35:10 2012 -0800
+
+    upgrade to curator 1.0.1, halt process when there's an unrecoverable error
+
+commit 0eb696b1701a54a1a78973399f88003ec56ca353
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Jan 4 18:31:15 2012 -0800
+
+    cleanup curator integration and don't close multiple times in tests
+
+commit df33534846d324f2f36066cd87bea2e8ce0f0cfb
+Author: dennis zhuang <killme2008@gmail.com>
+Date:   Wed Dec 21 18:28:35 2011 +0800
+
+    Make connectTimeout to 15 seconds by default
+
+commit 6041cd9d03f4f8acb2a4c91767ab0c9687232383
+Author: dennis zhuang <killme2008@gmail.com>
+Date:   Wed Dec 21 18:25:12 2011 +0800
+
+    Use curator to handle zookeeper
+
+commit 0644b39c8786176b5cdfde62039ca5ee0f7c2f4a
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Jan 4 16:11:23 2012 -0800
+
+    fix package for drpcinvocationsclient
+
+commit fc5ae41661724a03e06d8352e94b18fe29c149b9
+Merge: 998b792 896ec13
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Jan 4 16:10:05 2012 -0800
+
+    Merge branch 'master' into transactional-spout
+
+commit 896ec13aa746888216ef660ecbdefc4f0e71c81d
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Jan 4 14:54:15 2012 -0800
+
+    comment drpc.clj
+
+commit eb42451418cd71f76ed196f36e52d70a45582491
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Jan 4 14:36:40 2012 -0800
+
+    bump version to 0.6.2-SNAPSHOT
+
+commit eadd18742af28ba18bdf663b604028e1e4bb8733
+Merge: d0e6831 abeecaf
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Jan 4 14:35:50 2012 -0800
+
+    Merge branch 'master' of github.com:nathanmarz/storm
+
+commit d0e6831b016d457c501b9236b24141253da465a0
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Jan 4 14:35:19 2012 -0800
+
+    fix hanging problem with too many concurrent requests to drpc server
+
+commit 998b792651509b3298c167acc27c8f5ea2fece4d
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Jan 4 14:12:11 2012 -0800
+
+    refactor how transactional state is stored
+
+commit abeecafff2726aab78408be635fb50d194c7902f
+Author: Sam Ritchie <sritchie09@gmail.com>
+Date:   Tue Jan 3 08:50:27 2012 -0800
+
+    Added proper type-hinting to read-locked and write-locked functions in util.
+    
+    For comparison:
+    
+    user> (def k (mk-rw-lock))
+    user> (time (dotimes [_ 100000] (read-locked k 10)))
+    Reflection warning, NO_SOURCE_FILE:1 - reference to field readLock can't be resolved.
+    Reflection warning, NO_SOURCE_FILE:1 - reference to field lock can't be resolved.
+    Reflection warning, NO_SOURCE_FILE:1 - reference to field unlock can't be resolved.
+    "Elapsed time: 1400.476 msecs"
+    nil
+    user> (time (dotimes [_ 100000] (read-locked k 10)))
+    "Elapsed time: 20.137 msecs"
+    nil
+
+commit f410aabd060876bf0100a03f5fdb326e8d26f69c
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Mon Dec 26 10:47:02 2011 -0800
+
+    rename itransactionstate to icoordinatorstate, notes
+
+commit 1989897c018bfb64955e304c5df83e2b8aba1925
+Merge: 1e8707c e455ceb
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sun Dec 25 01:49:08 2011 -0800
+
+    Merge branch 'master' into transactional-spout
+
+commit e455ceb45620b431ab6ea1580c6ac270a3f61c2c
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sun Dec 25 01:48:55 2011 -0800
+
+    have nimbus detect corrupt topologies (in zookeeper but not local dir) and cleanup automatically
+
+commit e1eb16b3783bbcda9d2b83f7b1224a51c00e5e62
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sun Dec 25 01:48:29 2011 -0800
+
+    fix subtle concurrency bug between cancelling a timer and schedule-recurring
+
+commit 3bc27e3ded3fab45201a156501bfad6cbceecc94
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sun Dec 25 00:00:59 2011 -0800
+
+    storm client improvements: better docs and detect when not in a release
+
+commit 1e8707cffba2de1aa358f41da91c979bb25bdf1c
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Dec 24 23:37:42 2011 -0800
+
+    added transaction state tostring methods for debugging
+
+commit 48248b5c7b0e85c9fa2b95464c963203ae80b4ac
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Dec 24 23:20:04 2011 -0800
+
+    fix missing subscriptions for proper transactional functionality
+
+commit aea251305ed088b3b267d16a9de03422200c2249
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Dec 24 21:33:05 2011 -0800
+
+    formatting
+
+commit 997fe0c6fbe35a16ec8cf33e8702db5f5c4a43a0
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Dec 24 21:32:25 2011 -0800
+
+    remove dependence on ordering in coordinator
+
+commit dd8612120ef0597f8d171767752e908222ae1cf0
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Dec 24 17:34:54 2011 -0800
+
+    finished transactionalcoordinator
+
+commit ea81b55b89920d55ea0d01fe2559f9527e5c32c6
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Dec 24 15:18:53 2011 -0800
+
+    implementation of TransactionalTopologyBuilder
+
+commit 292d31a9664c64ec962f6b8e6be9ef741b77974d
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Dec 24 03:15:07 2011 -0800
+
+    beginnings of TransactionalTopologyBuilder
+
+commit 8c0ae064b0a10c1cc1d2175b563d364eac78aba9
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Dec 24 03:14:50 2011 -0800
+
+    formatting
+
+commit 3fe220072cb523a4675747140438bee384004447
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Dec 24 01:18:41 2011 -0800
+
+    fix bug in TransactionalBoltExecutor, comments on validity of commit condition
+
+commit cdf5c38efda92c64c129a307e3debc93fa09e124
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Dec 24 01:12:30 2011 -0800
+
+    generalized CoordinatedBolt to work in arbitrary topologies, fixed bug in CoordinatedBolt collector#fail so that it doesn't call finishId in that case
+
+commit 4bc27848cdd4c1914343eac1419681053f743d42
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Dec 24 00:49:17 2011 -0800
+
+    remove coordination stuff from thrift namespace
+
+commit c15d20e65fd4c58b246fc7026c97079fba89cf7d
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Dec 23 21:59:08 2011 -0800
+
+    generalize idstream for CoordinatedBolt, anchor direct tuples from coordinatedbolt
+
+commit 34a2a95b81e955b4c0698c71cdb2117bd737a222
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Dec 23 21:46:35 2011 -0800
+
+    moved CoordinatedBolt to coordination namespace, generalized IAnchorable from Tuple, changed finishedId interface to give something that can be anchored
+
+commit 4838a0601decf70f93be5f1e48a8daf58a7011b2
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Dec 23 19:13:44 2011 -0800
+
+    progress on transactional interfaces and implementation
+
+commit aadc136241caec688b0707aeef94b0f299601edb
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Dec 23 15:41:35 2011 -0800
+
+    prepare to make transactionalspouts a pattern on storm rather than a primitive
+
+commit d756afffdbcb6f2c32797dd4e250867d11b88bd2
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Dec 23 04:27:19 2011 -0800
+
+    cleanup committed transactions
+
+commit 80adc6a73e981ee671fb35bbba2d8734bb914da0
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Dec 23 03:52:13 2011 -0800
+
+    notes on transactionalspout implementation
+
+commit 29504af74ce161ea406a666aa5687e6cb5174816
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Dec 23 03:47:01 2011 -0800
+
+    tweaked/implemented prepare method of ITransactionalBolt
+
+commit 782d57f40cab0fdbd96d34e2ff417a81e58348e9
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Dec 23 03:40:30 2011 -0800
+
+    implemented transactionalbolts
+
+commit 63f11b1a34414a8bd3e70fda31e3573238265a9b
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Dec 23 02:57:52 2011 -0800
+
+    remove TODOs
+
+commit c663832deeff338b6481ea54f9ae62e29fdfa4b6
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Dec 23 02:57:10 2011 -0800
+
+    implemented implicit topology for transactional components
+
+commit aa656d3e66130a91dbb5cb9eced1a86925f6a8f5
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Dec 23 00:10:53 2011 -0800
+
+    extracted IAnchorable interface and refactored
+
+commit 4299517dfeada14ae566ac25125e3b2fb579c378
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Dec 22 23:55:28 2011 -0800
+
+    remove unnecessary comments
+
+commit 72c476c1d4e114f85b29cc794936c3f003369a71
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Dec 22 23:54:25 2011 -0800
+
+    added test for system stream
+
+commit f4ebac23792e1561c2e5acebb4a86345a6ae0f3f
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Dec 22 23:42:47 2011 -0800
+
+    implemented system stream
+
+commit 54e94a1f33e9291a55f209016432c5e9198e5917
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Dec 22 23:06:52 2011 -0800
+
+    setup basic streams for transactional components
+
+commit b930ee470a432897c348198f2df2b1eb386a8523
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Dec 22 22:53:15 2011 -0800
+
+    schema for transactional components, refactored stormtopology definition to support internal representation of topology (spouts with inputs), better topology validation
+
+commit 9178687355514ee90962addcadf55610590a857d
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Mon Dec 19 16:44:37 2011 -0800
+
+    interfaces for TransactionalSpout
+
+commit 340dedca54f91c6766db74ed3908cdd42fe3f187
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Mon Dec 19 15:41:49 2011 -0800
+
+    added :startup transition event and replaced kill and rebalance :monitor transitions with it
+
+commit 95d077118806e6e56f761a569cb2c6a5b97f1195
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Mon Dec 19 15:28:55 2011 -0800
+
+    refactored function
+
+commit c2b9a60e95e9d5b8005bfaec01c3e78d7b5bef52
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sun Dec 18 03:31:05 2011 -0800
+
+    make sure no transition case returns nil
+
+commit 8aed7da5af3a2794f3be7e79524615548a02c767
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sun Dec 18 01:13:50 2011 -0800
+
+    fix TopologyBuilder docs
+
+commit b7048938d88d774d2bae575e59d8f4312d44d366
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sun Dec 18 00:44:25 2011 -0800
+
+    log when a transition isn't possible
+
+commit 302cc08410c063783d3b95369debbfcec040aa39
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sun Dec 18 00:41:42 2011 -0800
+
+    turn down task launch timeout
+
+commit ccf53404656e0bcea6e9cb38d8a3ab7624a405ff
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sun Dec 18 00:23:24 2011 -0800
+
+    formatting
+
+commit a384b05fb5c0e64663d51e00e7ab9eba933ad16a
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Dec 17 23:59:55 2011 -0800
+
+    added test for rebalancing
+
+commit 943cfa93a14cdc43f6f8bfecf6523e3c415a2b0f
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Dec 17 23:32:45 2011 -0800
+
+    finished rebalance implementation
+
+commit 2d0df523c245dac8e60dfd4e91ec8ff467685dac
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Dec 17 17:47:42 2011 -0800
+
+    isolate from scratch reassignment to one function
+
+commit cf7c9d1bd32ba8797eab1fef13c206c0d115c2d4
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Dec 17 17:08:56 2011 -0800
+
+    more mk-assignments refactoring
+
+commit 940e136dbff621d40f6155578e07b963fcc0266f
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Dec 17 16:47:07 2011 -0800
+
+    refactor mk-assignments
+
+commit 861d9ab112c95bf1ed614e4ef6b88c7c00ffd6ca
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Dec 17 16:39:14 2011 -0800
+
+    added rebalance to storm client script
+
+commit 277d4e636776c183988953af874016b103168cc3
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Dec 17 16:35:36 2011 -0800
+
+    added rebalance thrift definition
+
+commit cf7a37b667ed9b3e379a0c917dd02ff42fea31e3
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Dec 17 16:25:21 2011 -0800
+
+    remove TODO
+
+commit 6bbc2780447de724b7030c86c0fab5cb9e0f0237
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Dec 17 16:20:32 2011 -0800
+
+    fix nimbus tests for new cleanup behavior
+
+commit 934240a0c10845297c1fdbe297626829f37310d9
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Dec 17 16:09:34 2011 -0800
+
+    fleshed out nimbus cleanup code
+
+commit ab5935cf7d0cb9d9b1dea68ecd68bb24b9ce5bbd
+Merge: a8a5536 393357b
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Dec 14 22:47:01 2011 -0800
+
+    Merge branch 'master' into nimbus-state-machine
+
+commit 393357b7852db2dc4f674041e98344f7277f137d
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Dec 14 22:44:46 2011 -0800
+
+    maven script fix
+
+commit 03cb9f377062cb38b15ef40270a830e2db103d92
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Dec 14 22:40:32 2011 -0800
+
+    added script to upload storm and storm-lib to maven
+
+commit a8a5536c85f332b548483a45745ada6aba37d0c3
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Dec 14 16:28:29 2011 -0800
+
+    updated tests to reflect new kill behavior
+
+commit 3cf6a95a3242d8d6bd74a6f78015311fa15e3d64
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Dec 14 15:07:25 2011 -0800
+
+    fixed bugs in transition function
+
+commit 52bea4fd4757001b5fb95e3955c1101f8fc61871
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Mon Dec 12 16:47:37 2011 -0800
+
+    fix bugs
+
+commit 246845b816954f8744872ebd59e701e5f9f48ed1
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Mon Dec 12 16:35:03 2011 -0800
+
+    fix compile errors
+
+commit 44b6edec43275800a0c6eaba278d145c8f70d564
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Mon Dec 12 16:14:01 2011 -0800
+
+    reimplemented timer to integrate with Time, progress on refactoring
+
+commit 7371926834a75cb1dacde371cd8f3aa0702dcd0a
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Mon Dec 12 00:51:25 2011 -0800
+
+    unfinished refactoring to a state machine approach for nimbus
+
+commit 5c3bf86014f05cc29825b3261e2fb9c6e774cfc6
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Dec 8 01:08:12 2011 -0800
+
+    override httpclient dependency to be version 4.1.1 to fix conflicts with aws sdk
+
+commit 720901fa1ed63e1985aec7fef6e5239b46d7964d
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Dec 8 01:05:59 2011 -0800
+
+    added id-timer abstraction
+
+commit 1f39064656c93660b97db349a1ba8744eecdaeeb
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Dec 7 23:42:51 2011 -0800
+
+    log conf on nimbus, supervisor, and worker startup
+
+commit bf75498b4cbfbea337a57564e4f20e39a9d4fe15
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Dec 6 21:48:39 2011 -0500
+
+    comment thrift
+
+commit cd9d0a18eb0859c2308f2a7592e684023d0d6314
+Author: Jason Trost <jtrost@endgames.us>
+Date:   Tue Dec 6 16:18:20 2011 -0500
+
+    Changed the ShellBolt to use a String[] as its arg so this can be passed to the ProcessBuilder directly.  This allows you to pass command line param to your ShellBolt
+
+commit 573dd6af4d261b1e673175f96553fbb8143c726f
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Dec 6 17:46:28 2011 -0500
+
+    set LD_LIBRARY_PATH environment variable on worker subprocess
+
+commit b39a7105d02beba61bf4ae7e859e886a08c05043
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Dec 6 16:44:18 2011 -0500
+
+    fix int coercion problems in java code
+
+commit 57d11797395ac2e00731f425af2fa6f19b3f6950
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Dec 6 16:37:30 2011 -0500
+
+    fix int coercion problem in StormSubmitter
+
+commit 92248231f5e8f31f27c77e6baa1e968686e627e3
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Dec 6 16:18:33 2011 -0500
+
+    pass jar name in using java property rather than environment var
+
+commit 20284190a0e5459e105e3d4a93ef111a607f25fd
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Dec 6 11:58:24 2011 -0500
+
+    ack coordination tuples in drpc
+
+commit 041d9c697a4ce403e72b67806dd759c6404895fa
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Mon Dec 5 23:47:52 2011 -0500
+
+    log errors before reporting to zookeeper
+
+commit ff6eac6af086741d2e38e41e82a6e6bcc836bde7
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Mon Dec 5 23:47:32 2011 -0500
+
+    fix race condition in zookeeper#mkdirs
+
+commit b5c1960662993d7f18b2be076291af0426b5e710
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Mon Dec 5 23:47:08 2011 -0500
+
+    fix where treemap is created
+
+commit f28af3054536d2a1d421137dacd6172561940157
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Dec 3 17:33:15 2011 -0800
+
+    log errors when returning results fails in ReturnResults
+
+commit deffe3f7d51cd3e061fb97b2f0f0c67229b4f0cb
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Dec 3 12:59:59 2011 -0800
+
+    update example storm.yaml
+
+commit 6ee6d088593b203d679459568ffb96d82c1976a2
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Dec 2 15:36:40 2011 -0800
+
+    be explicit about ordering when registering serializations
+
+commit b08d3d067996ba3eafb3cb039213765e3e5b13f6
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Dec 2 11:33:38 2011 -0800
+
+    replace jvyaml with snakeyaml
+
+commit 8d7ebbf63dd43d622f2cfc48fab8605e63181dcf
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Dec 2 11:27:16 2011 -0800
+
+    minimize jvyaml references
+
+commit b8dae14aab61b1207dbe91d029ce6db68d77489d
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Dec 2 11:12:13 2011 -0800
+
+    refactored nimbus
+
+commit aef936013a4f4487be710f10880db9dda5dd80e3
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Dec 1 22:47:08 2011 -0800
+
+    update .gitignore
+
+commit b6eac26ff1016fc22721c30f2188d598342ef6b4
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Dec 1 19:43:05 2011 -0800
+
+    implemented activate and deactivate commands
+
+commit 6cd9c96b21e380f3fc976b7435746b7c66edd3cd
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Dec 1 15:13:01 2011 -0800
+
+    fix bug in displaying component pages in UI
+
+commit fe46b556d1556f0605edecff1278f857fc800ed1
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Nov 30 22:41:29 2011 -0800
+
+    link to Storm's launch presentation video in README
+
+commit a352eddf1b6d7d14fcb8da6ed3d6339a8a2d87cc
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Nov 30 22:39:14 2011 -0800
+
+    starting 0.6.1-SNAPSHOT
+
+commit 1056ecd29aa6f0af42d820f56236eb9d4f3831d3
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Nov 30 21:30:08 2011 -0800
+
+    add byte[] as a default serialization
+
+commit b368e63e3c04e861c2cd6e26b3fc6c001e287cc8
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Nov 30 21:07:48 2011 -0800
+
+    fix bad bug introduced in CoordinatedBolt due to earlier id stream update
+
+commit 436a8acf450710e4710601eb335f95a9d8f26737
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Nov 30 19:04:17 2011 -0800
+
+    fix bug in LinearDRPCTopologyBuilder
+
+commit 9fbc42b7cb9244ef9ca2ef95421853fa605c98ad
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Nov 30 15:10:21 2011 -0800
+
+    release 0.6.0
+
+commit 1c027657e256ecefb1430850cd6f9b8ba8cd91dc
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Nov 30 14:40:59 2011 -0800
+
+    added clojure primitives/collections serialization using carbonite
+
+commit d6ff4555ed22706486cd8c66a54a32a957dab327
+Merge: b7ca3f4 862e1c7
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Nov 30 13:09:14 2011 -0800
+
+    Merge branch 'string-ids'
+
+commit 862e1c7a37198d554c238fe4ba8ae916d0c6d6ee
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Nov 30 13:09:01 2011 -0800
+
+    finished string ids, revamped topology tracking tests
+
+commit 3760971bf7b040caf387c3434d15a39c396544a1
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Nov 25 15:58:15 2011 -0500
+
+    halt in local mode for now
+
+commit 734082d169e1757b47835e1c00fa4e0a9a32c20c
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Nov 25 15:56:06 2011 -0500
+
+    mostly working... tracked topologies not
+
+commit f205124364a345ef673eaa1331573c853b837cd6
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Nov 25 04:03:33 2011 -0500
+
+    progress
+
+commit c73dc014cf958abd13f48df5fc3425b4d13a99c7
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Nov 25 02:46:28 2011 -0500
+
+    small fixes... almost working
+
+commit f59256607e8b237cbdd4dc8706aff18ee2811a80
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Nov 22 13:48:31 2011 -0500
+
+    refactor acker -- doesn't need to be serializable
+
+commit fefef8f022910fa480931bf2930b154601de8eee
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Nov 22 03:56:02 2011 -0500
+
+    compiling
+
+commit 8919cdfe6238239a31a81df77f0eb76d14df329a
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Nov 22 03:45:03 2011 -0500
+
+    classified acker
+
+commit cef7c2b7a00110621cc833f0eccfd6692ec828b4
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Nov 22 03:37:10 2011 -0500
+
+    more refactoring fixes
+
+commit e9e3ec259d463484fa9aec237ce253b2ac0afa06
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Nov 22 02:46:40 2011 -0500
+
+    mostly refactored the user/system topology contexts
+
+commit b7ca3f42ace347ccdd56d63c9d2c4243615b964b
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Mon Nov 21 21:26:12 2011 -0500
+
+    log information about in process zk
+
+commit 8c63426af2f277ffece05e3fd45cf90131d39a80
+Merge: bc104ce 52f051d
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Mon Nov 21 21:01:29 2011 -0500
+
+    Merge remote branch 'houk/master'
+
+commit e1b6c245b28b8b987ec1b92f75b5b448cf3cdb65
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Mon Nov 21 20:54:58 2011 -0500
+
+    notes
+
+commit 7ef70ea21567e16dbf454dfd6a9faf30e9eb1dee
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Mon Nov 21 11:24:26 2011 -0800
+
+    most of refactoring for string ids
+
+commit fb38262817ac407da160ce992f1284ac6a5fcf9e
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sun Nov 20 17:18:52 2011 -0800
+
+    updated thrift definition to make component/stream ids strings
+
+commit bc104ce6519b57cb903de14fe07f3346bb2d85cd
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sun Nov 20 15:35:18 2011 -0800
+
+    formatting
+
+commit 8a010865622b04878eced531e03deb92f9e052f0
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Nov 19 02:01:10 2011 -0800
+
+    add values serializers
+
+commit c91da283d12ac3958ea06c491cb22f341ac70956
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Nov 19 02:00:50 2011 -0800
+
+    updated serialization tests
+
+commit 3539864fa4fc622e10fdba4e28d99e1cc7d73949
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Nov 19 01:36:49 2011 -0800
+
+    replaced storm's serialization system with kryo serialiation
+
+commit 52f051daabf616ec22ff808f47fd43bde3e2fcdb
+Author: Patrick Houk <patrick.houk@picotrading.com>
+Date:   Fri Nov 18 22:23:57 2011 -0500
+
+    Issue #2: If default Zookeeper port is not available when running Local Mode, then use an arbitrary available port instead.
+
+commit 5b9820a34e3de328249e47f9a316bb0f0610b878
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Nov 17 23:21:51 2011 -0800
+
+    typo
+
+commit 2a31acbc458c04493c20b35f5963e3a7d82eb706
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Nov 15 23:31:28 2011 -0800
+
+    avoid cyclic dependency between LocalCluster and backtype.storm.clojure
+
+commit f5e44326a81a3ce3da633020e228301902f533ce
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Nov 15 18:05:12 2011 -0800
+
+    implement java object bolts/spouts through thrift (for better multilang support)
+
+commit 81aba48216d226057e975849cb13ddc9dbdc2b99
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Nov 15 18:00:15 2011 -0800
+
+    finished pluggable stream groupings + tests
+
+commit 9567ec499f8fb691ae86498df01e182f1dc39b06
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Nov 15 17:06:42 2011 -0800
+
+    implementation of pluggable stream groupings
+
+commit a3a9981103bff9af25394b6d7c06c911f1db13fc
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Nov 15 14:19:30 2011 -0800
+
+    report errors during preparation of spouts/bolts
+
+commit e9d0fc0411b1becfea6be2946732c3316b4e2852
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Nov 15 00:25:10 2011 -0800
+
+    remove zip files before building release
+
+commit 5c8b9d8d407f9ebc57331dfe5ab40455c2fbfeec
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Nov 15 00:18:11 2011 -0800
+
+    don't halt process when there's a task error in local mode (still need to make supervisor and worker resilient to these failure scenarios as well)
+
+commit faa41dc7daa5a8cade726baa74f0c0d3eebab334
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Nov 15 00:16:45 2011 -0800
+
+    fix LinearDRPCTopologyBuilder bug with final bolts with finishedcallback but not receiving input from all incoming tasks
+
+commit bd2b88e4c0926a7afebc8c2e14ef52b09816f742
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Nov 8 18:32:20 2011 -0800
+
+    add tests for string serialization
+
+commit b8bb84c5e4c01f73ca7a013f26d7e6ab5ce8f86b
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Nov 8 18:16:38 2011 -0800
+
+    fix bug preventing strings >64K from serializing
+
+commit b29176a08398abeb2dbda762c173f708a1abbb5e
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Mon Nov 7 02:21:18 2011 -0800
+
+    log supervisor startup with id
+
+commit 96a62fd098fd5dbcaf4196e1241015cfae6ed6c5
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sun Nov 6 18:23:52 2011 -0800
+
+    more convenience methods for introspection of Tuple and context
+
+commit 54237454d972a7ac6f2e6244357c4f079fb69978
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sun Nov 6 18:23:29 2011 -0800
+
+    genericize anchors tuple to Collection from List
+
+commit 95a9a96d89e97cc6e5fec12a80d9ea464d3e086d
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sun Nov 6 00:04:29 2011 -0700
+
+    fine grained logging about task startup
+
+commit 604cf3cb44f3296c14ecd23ab04dee2827f095f5
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Oct 29 23:18:10 2011 -0700
+
+    documented %ID% for worker childopts
+
+commit 7dcbe76b626c56f04fc3c9533461b094ce2b318d
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Oct 29 23:16:04 2011 -0700
+
+    support %ID% template string in worker childopts
+
+commit 0d362498b148a455e3a342f75d7fe4df5d5cbea3
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Oct 25 19:19:47 2011 -0700
+
+    log the command used to launch workers
+
+commit db63ff1f83e294483ab882d474a76455003a091a
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Oct 25 01:09:04 2011 -0700
+
+    fix example storm.yaml
+
+commit 6907554e982baada2dcd5320e7c789327bb80ffb
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sun Oct 23 21:05:37 2011 -0700
+
+    remove comment
+
+commit 50e078cf42b2a437c2fa9e4432f8653e0e75ef5f
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sun Oct 23 15:26:40 2011 -0700
+
+    starting 0.5.5-SNAPSHOT
+
+commit a84259de45b123c83ff0e8e0c4b047d3af6e96e5
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sun Oct 23 15:26:18 2011 -0700
+
+    release 0.5.4
+
+commit 3b21a8be2c51e5cf4e9616fbedafa278350c5840
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sun Oct 23 15:25:53 2011 -0700
+
+    remove StintBolt
+
+commit b4e87a60cb4e6f795faff3eda8da5140f4e8cdad
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sun Oct 23 03:06:22 2011 -0700
+
+    implemented LinearDRPCTopologyBuilder and tests
+
+commit 14ae3239d22ec1c1fed122e9f903d46d90129c38
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Oct 22 14:40:37 2011 -0700
+
+    better debug logging
+
+commit 6b38a1221f926bfab09fe78992f5784081dd1891
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Oct 22 02:38:30 2011 -0700
+
+    remove serialVersionUIDs
+
+commit 4ba4e024a6f51b6b2d642de3b71cf29c78bb38f5
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Oct 22 01:50:57 2011 -0700
+
+    add serialVersionUID's
+
+commit f39c0bd185fe70af580f5cab45c7267bf5636ffc
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Oct 22 01:05:39 2011 -0700
+
+    cache drpc clients to eliminate overhead
+
+commit a2a004abe1af96c056788fef80ec996f7bed457c
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Oct 22 01:05:25 2011 -0700
+
+    auto-reconnect drpc client
+
+commit 85663513f5cea9d25b8dcd5672053ad1aa359f40
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Oct 22 00:38:17 2011 -0700
+
+    better debug logging
+
+commit c3fbb15f25022a29bb4e3e2297c358c398cb1b9e
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Oct 22 00:28:38 2011 -0700
+
+    add debug logging to drpc
+
+commit 576577b3daf5c3b5954fb6d5a2f2cb3323b8c489
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Oct 21 21:29:37 2011 -0700
+
+    finished simplified drpc...
+
+commit acc414cfcbb2dcb53af07bf622813e862083e1aa
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Oct 21 21:29:14 2011 -0700
+
+    finished simplified drpc, added test of local workflow
+
+commit 92174d8fef1b37e636c45fd0fc3f3b3b137a1637
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Fri Oct 21 20:49:46 2011 -0700
+
+    simplified drpc to make the drpc server a spout
+
+commit 7ffb9cc0642bb673ac6acdf5214ea02e429705d3
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Oct 20 22:18:33 2011 -0700
+
+    implemented LocalDRPC and FeederSpoutAdder
+
+commit 0cd570749ce314c3af21c4d90746a9615c82f54c
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Oct 20 21:32:12 2011 -0700
+
+    redo feederspout to use inprocmessaging
+
+commit fd70341f62851e1ce5e56e30887c02d835cf2424
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Oct 20 21:32:00 2011 -0700
+
+    add inprocmessaging abstraction
+
+commit 51e784c93228a1b01728c994a5c74f717adb0848
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Oct 20 00:02:07 2011 -0700
+
+    added fallback to java serialization feature
+
+commit eb3601f70af7f4e27ba9c97bbd1693777c2468c4
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Oct 19 22:47:37 2011 -0700
+
+    auto assign tokens for custom serializations
+
+commit bc9a360701e47d2d123b139eaa4c4b50329c0148
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Oct 19 21:31:39 2011 -0700
+
+    throw error if detect multiple defaults.yaml or storm.yaml files of the same name
+
+commit c50f960974a3d78b137f79c634d544872a8b4ea5
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Oct 19 21:14:32 2011 -0700
+
+    fix storm kill command
+
+commit 02cfd6b1e6798c51c5ddd4bf8c925374a61a7dd7
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Oct 19 20:52:16 2011 -0700
+
+    fix log message
+
+commit b419a6b2a3163da87f339b379c084eb26162d83f
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Oct 19 19:26:35 2011 -0700
+
+    add status to UI
+
+commit 44825be9bde250a1b84679ea7bab4727a9ed9e9d
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Oct 19 19:09:16 2011 -0700
+
+    added active/killed statuses for topologies, implemented custom wait amounts when killing
+
+commit 8615889b4f5d3e701f731dc860847ae21dffca9b
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Oct 19 00:23:39 2011 -0700
+
+    use org.apache.thrift7 so that Storm's thrift is independent from other thrifts
+
+commit 4eb942239e4a2495de6b55e84a28321fc3652908
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Oct 18 22:06:49 2011 -0700
+
+    fix setting up hshaserver args
+
+commit c89270bb7d92c04bb38b987f14933281bb39f706
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Oct 18 19:35:54 2011 -0700
+
+    upgraded to thrift 7
+
+commit fbe24e6cc19ccf9bfd3e7345305017826ad3122e
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Oct 18 15:48:43 2011 -0700
+
+    log when local mode copies resource directory
+
+commit fe268549697a59e6a616bb1434f4abf2bcb826ac
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Oct 18 15:48:32 2011 -0700
+
+    comment
+
+commit f597bb120ff8fafc5d5df48e92fb01cb0eea0aa3
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Oct 18 02:05:29 2011 -0700
+
+    clojure 1.3 changes except for various long/int issues
+
+commit 18dd7423be41313c7476b8981a650dab9b3429a6
+Merge: 9807286 2640983
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Oct 12 15:31:17 2011 -0700
+
+    Merge branch 'master' of github.com:nathanmarz/storm
+
+commit 98072862b9c04eb27a2c445254d62f4beb5ed380
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Oct 12 15:30:50 2011 -0700
+
+    friendlier error message when emitting to undeclared stream
+
+commit 26409830d4c0a59b7236269b041bbed6a81f7960
+Merge: 3226a1c 31f06a9
+Author: Nathan Marz <nathan.marz@gmail.com>
+Date:   Tue Oct 11 00:32:53 2011 -0700
+
+    Merge pull request #20 from twpayne/python-debug-support
+    
+    Add Tuple.__repr__ to Python library
+
+commit 3226a1ce4641c256134de995d673596e8aa4c603
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Oct 11 00:26:34 2011 -0700
+
+    print usage if no arguments given to storm script
+
+commit 2e410513e75ec9b584c50a92bec5f24b057b3836
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Oct 11 00:26:20 2011 -0700
+
+    note
+
+commit 31f06a9aa07c8f086d2c3aa70fa8f2a5d56cc333
+Author: Tom Payne <tom.payne@camptocamp.com>
+Date:   Mon Oct 10 17:42:28 2011 +0200
+
+    Add Tuple.__repr__
+
+commit fa9e007c8259f4abe946768395ef534e73a37fac
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Oct 5 00:00:25 2011 -0700
+
+    improve javadoc
+
+commit 0699624e1dc9b736220f135112448e4474c00446
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Oct 4 22:49:29 2011 -0700
+
+    fix javadoc for TOPOLOGY_MAX_SPOUT_PENDING
+
+commit ccbf578c730da0b1e745387a65c3df8b0a2f8f2a
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Oct 4 16:42:44 2011 -0700
+
+    make storm ui port configurable
+
+commit 6fd04ab71949e39d6914cd49c94205e655fbf190
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Oct 4 12:20:00 2011 -0700
+
+    expose get*ByField methods in Tuple
+
+commit 5aa6e3d9bfbebfb80676b9cd4db819aac17f8201
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sun Oct 2 23:15:44 2011 -0700
+
+    make storm client work on windows under cygwin
+
+commit 084bbbbe7f2aea90f2dec536d54aa60ee448cd60
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Oct 1 21:39:03 2011 -0700
+
+    another shellspoutconstructor
+
+commit 26125afa8590d883d321ce4911013f4fa5a7d6f3
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Oct 1 21:38:41 2011 -0700
+
+    better documentation about nextTuple
+
+commit 57ddaae5fd72ff2cef6d179568640b1fac8f4f08
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Oct 1 21:38:25 2011 -0700
+
+    better error messages when problem with multilang subprocess
+
+commit a95b418fc34fe6d7e4ca54f81123eb66e2aa1fda
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Oct 1 21:38:01 2011 -0700
+
+    comment about Utils.class usage
+
+commit 476e9101d52a1f38531cb71a7565c7db1472b234
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Sep 29 17:01:37 2011 -0700
+
+    change how Storm looks for configs to play nicely with sbt
+
+commit 14680ff56a8894ef2dd7380c2ed0aee364aadc98
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Sep 29 17:01:06 2011 -0700
+
+    more Clojure DSL helpers
+
+commit 6a3f94e142fae9245093fc27cd5e704e3dc68f61
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Thu Sep 29 01:55:26 2011 -0700
+
+    add bolt-execute helper
+
+commit feaafd4b4ea61a88f8627bc962adcfd7433578d9
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Sep 28 23:47:35 2011 -0700
+
+    don't die on a user report error
+
+commit 028d76c59fed1d830d5c0b3d304c9ff921994539
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Sep 28 16:16:00 2011 -0700
+
+    starting 0.5.4-SNAPSHOT
+
+commit 8d236fcf9703cceb6c7f0678a382c5d36648b85a
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Sep 28 16:15:29 2011 -0700
+
+    release 0.5.3
+
+commit 8336885d725e5dac598e86f174baa61aa731d1ed
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Sep 28 12:58:17 2011 -0700
+
+    check that nimbus host is set
+
+commit 0e57b733915941034ba5130c40b077635eecaf2f
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Sep 28 12:45:55 2011 -0700
+
+    added classpath command to bin/storm
+
+commit 2c0b7510ab8ad1e2eca305ad3607814745b142e6
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Sep 28 12:45:44 2011 -0700
+
+    allow nimbus and supervisor to share local dir
+
+commit 59998cfc18dcc2098f91339674dfe3f47c9f24e4
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Sep 28 12:24:47 2011 -0700
+
+    add repl and confvalue commands to storm script
+
+commit ed8729ea578e4e2e2d7fe0026d458b3d5b1e3738
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Sep 28 00:12:47 2011 -0700
+
+    improvements to clojure DSL: p for specifying parallelism, and access to shell bolts
+
+commit 1fea7a49a6d3ab72dac09e398ac988e0831c6832
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Sep 28 00:02:47 2011 -0700
+
+    worked kinks out of clojure DSL, finished defspout
+
+commit daf093da0f7c4f7e7253cf90f7949e7285946ad4
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Sep 27 23:29:13 2011 -0700
+
+    initial defspout implementation
+
+commit 0c8d942b5d7bcf4a5fa97a2cdda020f9c0799ca1
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Sep 27 20:54:00 2011 -0700
+
+    added emit and acking helpers to clojure dsl
+
+commit aa3f8292cc012f0acb48ba439bdfa33c97b64fca
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Sep 27 20:44:20 2011 -0700
+
+    insert type hints automatically for clojure dsl
+
+commit 2937dc083e9513b43fcb489522c0995d8ef4f391
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Sep 27 20:29:19 2011 -0700
+
+    remade clojure DSL to be much cleaner and clojurey
+
+commit b3b4b715f88dfb1167024dee23fccb33d1accaa1
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Sep 27 02:09:43 2011 -0700
+
+    make supervisor log when a worker fails to start within the start timeout
+
+commit e1bbcd81c2944f298a6c05a33688ed789d1cfaac
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Sep 27 01:31:33 2011 -0700
+
+    increase zookeeper timeout
+
+commit 2ec6631af32c4b838338b88cad16d0ec3b532c4e
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Sep 27 01:24:38 2011 -0700
+
+    formatting
+
+commit f02533bd6b1257891220e6ddcb5210cb7d823a0d
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Sep 27 01:24:25 2011 -0700
+
+    debug logging
+
+commit 3cee68bdf4b7fc30cf77f3b286edcf3c3451ac3e
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Sep 27 01:24:08 2011 -0700
+
+    increase default start timeouts
+
+commit 2fd62d9e00461a4f470717ac80bf06b53770dac3
+Merge: 35772e8 4e7a187
+Author: Nathan Marz <nathan.marz@gmail.com>
+Date:   Sun Sep 25 23:13:19 2011 -0700
+
+    Merge pull request #9 from samstokes/patch-1
+    
+    Fix Config.addSerialization() parameter type
+
+commit 4e7a187c7f5cdc3fd1a4cb5c8537ae4135660d77
+Author: Sam Stokes <sam@rapportive.com>
+Date:   Sun Sep 25 19:52:54 2011 -0700
+
+    Relax parameter type of Config.addSerialization() so it can actually be called
+
+commit 35772e8f136cd9b9b05a651c1a8c14cd90b27793
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sun Sep 25 01:01:42 2011 -0700
+
+    test that local mode works with zeromq and without
+
+commit 23617033dc978b4256edf9dcb0bed84b7bfe6735
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Sep 24 12:20:53 2011 -0700
+
+    starting 0.5.3-SNAPSHOT
+
+commit 095ce14e7b289864c64e6a21df2767282ebef416
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Sep 24 12:07:38 2011 -0700
+
+    release 0.5.2
+
+commit 1130376bcd38668b80d3aa4e35c617d063fd7095
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Sep 24 03:33:34 2011 -0700
+
+    fix logging to use rolling file in production, console everywhere else
+
+commit a8d85e4d6e6b736cd94235d4eaf37686b7887cb8
+Merge: 3e84ddf 969df63
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Sep 24 03:00:09 2011 -0700
+
+    Merge branch 'no-zmq-local'
+
+commit 969df632859e9e6f8e4405e2cd48d959cadd672e
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Sep 24 02:59:41 2011 -0700
+
+    no zmq local mode finished
+
+commit 25e8d8a5deb70a6b7dab80b35065c3da12fc1d28
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Sep 24 01:33:53 2011 -0700
+
+    finished extracting zmq code so that local mode can be run without native deps
+
+commit 2ce3acf2d5d4f48c1beff4b7d32162f84f61aed7
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Sep 24 00:47:08 2011 -0700
+
+    restructured messaging to delay loading ZMQ until it's actually being used
+
+commit 3e84ddf38891816409d6748376b7d4d57afc8daa
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Sep 24 00:25:30 2011 -0700
+
+    make it possible to lookup metadata from Tuples in clojure using keywords
+
+commit f775c09e4397e6d25df05ba7fe967945d7ddf8e2
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Sep 24 00:16:18 2011 -0700
+
+    initial implementation of messaging abstraction
+
+commit 2ae64459388e605efb7bd00b236936a23d9948b0
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Sep 21 21:18:01 2011 -0700
+
+    bump version
+
+commit c47e10543daf7938cdb3a1352ef47b349c2a1930
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Sep 21 19:54:18 2011 -0700
+
+    0.5.1 release
+
+commit 2a022ae92cd6bc0d877a244bc2d98f1d8b7cdc05
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Sep 21 19:16:15 2011 -0500
+
+    javadoc for tuple
+
+commit c2a5bf1ee4524cfb2e6201a6eca481d6cc8f1242
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Sep 21 16:54:13 2011 -0500
+
+    bump version
+
+commit d5fdf94ba14d13768a14727f6e4afb9cd87c5063
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Sep 21 16:39:32 2011 -0500
+
+    improve the javadocs on serialization and allow Config class to be used as a helper for typed configs
+
+commit 1469557ec1f4652bcd54f64bad716e1c6e2379b1
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Wed Sep 21 14:55:41 2011 -0500
+
+    remove generic from ISerialization#accept
+
+commit 2c77528ca02c1d6a19a07e9fcddef338a8b69d82
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Tue Sep 20 10:46:14 2011 -0500
+
+    updated README with more introductory resources
+
+commit 5fab34e13aabf2bd121e0d0e2db1f80d130887e6
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Mon Sep 19 02:10:11 2011 -0500
+
+    added mike as contributor
+
+commit 9d91adbdbde22e91779b91eb40805f598da5b004
+Author: Nathan Marz <nathan@twitter.com>
+Date:   Sat Sep 17 00:48:10 2011 -0700
+
+    release commit
